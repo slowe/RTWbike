@@ -1,0 +1,408 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [37.96222, -122.34556]
+			},
+			"properties": {
+				"title": "San Pablo, CA",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [37.96222, -122.34556]
+			},
+			"properties": {
+				"title": "San Pablo, CA",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [38.35000, -121.90806]
+			},
+			"properties": {
+				"title": "Elmira, CA",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [38.35000, -121.90806]
+			},
+			"properties": {
+				"title": "Elmira, CA",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [38.60694, -121.50167]
+			},
+			"properties": {
+				"title": "American River Bike Trail",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [38.80000, -121.24667]
+			},
+			"properties": {
+				"title": "Rocklin, California",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [38.89861, -121.07444]
+			},
+			"properties": {
+				"title": "Auburn, California",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [38.96944, -121.01750]
+			},
+			"properties": {
+				"title": "Clipper Gap, California",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [39.12917, -120.92472]
+			},
+			"properties": {
+				"title": "Cape Horn, Placer County, California",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [39.20611, -120.83778]
+			},
+			"properties": {
+				"title": "Dutch Flat, California",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [39.31583, -120.32139]
+			},
+			"properties": {
+				"title": "Donner Pass",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [39.32278, -120.26444]
+			},
+			"properties": {
+				"title": "Donner Lake",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [39.52722, -119.82194]
+			},
+			"properties": {
+				"title": "Reno, Nevada",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [39.63556, -119.28306]
+			},
+			"properties": {
+				"title": "Wadsworth, Nevada",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [40.18000, -118.47667]
+			},
+			"properties": {
+				"title": "Lovelock, Nevada",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [40.68361, -118.07056]
+			},
+			"properties": {
+				"title": "Mill City, Nevada",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [40.95333, -117.48917]
+			},
+			"properties": {
+				"title": "Golconda, Nevada",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [40.83722, -117.17194]
+			},
+			"properties": {
+				"title": "Stone House, Nevada",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [40.63944, -116.93722]
+			},
+			"properties": {
+				"title": "Battle Mountain, Nevada",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [40.61028, -116.19861]
+			},
+			"properties": {
+				"title": "Palisade, Nevada",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [40.714186, -116.113127]
+			},
+			"properties": {
+				"title": "Carlin",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [40.95083, -115.45278]
+			},
+			"properties": {
+				"title": "Halleck, Nevada",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [41.10944, -114.96889]
+			},
+			"properties": {
+				"title": "Wells, Nevada",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [41.26139, -114.19417]
+			},
+			"properties": {
+				"title": "Montello, Nevada",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [41.50361, -113.51694]
+			},
+			"properties": {
+				"title": "Terrace, Utah",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [41.74611, -113.10639]
+			},
+			"properties": {
+				"title": "Kelton, Utah",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [41.54861, -112.11389]
+			},
+			"properties": {
+				"title": "Corinne, Utah",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [41.54861, -112.11389]
+			},
+			"properties": {
+				"title": "Corinne, Utah",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [41.22778, -111.96111]
+			},
+			"properties": {
+				"title": "Ogden, Utah",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [41.22778, -111.96111]
+			},
+			"properties": {
+				"title": "Ogden, Utah",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [41.053055, -111.529238]
+			},
+			"properties": {
+				"title": "Thousand Mile Tree",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		}
+	]
+}
