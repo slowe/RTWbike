@@ -9,6 +9,7 @@
 			},
 			"properties": {
 				"title": "Golden Gate Park, SF, CA",
+				"date": "Tue Apr 22 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000001.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -23,6 +24,7 @@
 			},
 			"properties": {
 				"title": "Oakland Jack London Square",
+				"date": "Tue Apr 22 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000001.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -37,6 +39,7 @@
 			},
 			"properties": {
 				"title": "San Pablo, CA",
+				"date": "Tue Apr 22 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000002.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -51,6 +54,7 @@
 			},
 			"properties": {
 				"title": "Suisun City, California",
+				"date": "Tue Apr 22 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000003.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -65,6 +69,7 @@
 			},
 			"properties": {
 				"title": "Elmira, CA",
+				"date": "Wed Apr 23 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000004.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -79,6 +84,7 @@
 			},
 			"properties": {
 				"title": "Davis, California",
+				"date": "Thu Apr 24 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000005.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -93,6 +99,7 @@
 			},
 			"properties": {
 				"title": "Sacramento, California",
+				"date": "Thu Apr 24 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000005.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -107,6 +114,7 @@
 			},
 			"properties": {
 				"title": "American River Bike Trail",
+				"date": "Fri Apr 25 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000006.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -121,6 +129,7 @@
 			},
 			"properties": {
 				"title": "Rocklin, California",
+				"date": "Fri Apr 25 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000008.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -135,6 +144,7 @@
 			},
 			"properties": {
 				"title": "Auburn, California",
+				"date": "Sat Apr 26 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000011.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -149,6 +159,7 @@
 			},
 			"properties": {
 				"title": "Clipper Gap, California",
+				"date": "Sat Apr 26 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000011.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -163,6 +174,7 @@
 			},
 			"properties": {
 				"title": "Cape Horn, Placer County, California",
+				"date": "Mon Apr 28 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000013.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -177,6 +189,7 @@
 			},
 			"properties": {
 				"title": "Dutch Flat, California",
+				"date": "Mon Apr 28 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000014.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -191,6 +204,7 @@
 			},
 			"properties": {
 				"title": "Donner Pass",
+				"date": "Tue Apr 29 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000015.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -205,6 +219,7 @@
 			},
 			"properties": {
 				"title": "Donner Lake",
+				"date": "Wed Apr 30 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000016.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -219,6 +234,7 @@
 			},
 			"properties": {
 				"title": "Truckee, California",
+				"date": "Wed Apr 30 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000016.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -233,6 +249,7 @@
 			},
 			"properties": {
 				"title": "Verdi, California",
+				"date": "Wed Apr 30 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000016.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -247,6 +264,7 @@
 			},
 			"properties": {
 				"title": "Reno, Nevada",
+				"date": "Thu May 01 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000017.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -261,6 +279,7 @@
 			},
 			"properties": {
 				"title": "Wadsworth, Nevada",
+				"date": "Fri May 02 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000019.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -275,6 +294,7 @@
 			},
 			"properties": {
 				"title": "Forty Mile Desert",
+				"date": "Fri May 02 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000019.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -289,6 +309,7 @@
 			},
 			"properties": {
 				"title": "Lovelock, Nevada",
+				"date": "Sun May 04 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000021.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -303,6 +324,7 @@
 			},
 			"properties": {
 				"title": "Rye Patch",
+				"date": "Sun May 04 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000021.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -317,6 +339,7 @@
 			},
 			"properties": {
 				"title": "Mill City, Nevada",
+				"date": "Mon May 05 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000022.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -331,6 +354,7 @@
 			},
 			"properties": {
 				"title": "Winnemucca, Nevada",
+				"date": "Mon May 05 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000022.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -345,6 +369,7 @@
 			},
 			"properties": {
 				"title": "Golconda, Nevada",
+				"date": "Tue May 06 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000023.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -359,6 +384,7 @@
 			},
 			"properties": {
 				"title": "Stone House, Nevada",
+				"date": "Tue May 06 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000024.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -373,6 +399,7 @@
 			},
 			"properties": {
 				"title": "Battle Mountain, Nevada",
+				"date": "Wed May 07 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000026.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -387,6 +414,7 @@
 			},
 			"properties": {
 				"title": "Beowawe, Nevada",
+				"date": "Wed May 07 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000026.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -401,6 +429,7 @@
 			},
 			"properties": {
 				"title": "Palisade, Nevada",
+				"date": "Thu May 08 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000028.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -415,6 +444,7 @@
 			},
 			"properties": {
 				"title": "Carlin, Nevada",
+				"date": "Fri May 09 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000029.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -429,6 +459,7 @@
 			},
 			"properties": {
 				"title": "Halleck, Nevada",
+				"date": "Sat May 10 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000032.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -443,6 +474,7 @@
 			},
 			"properties": {
 				"title": "Wells, Nevada",
+				"date": "Sun May 11 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000033.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -457,6 +489,7 @@
 			},
 			"properties": {
 				"title": "Montello, Nevada",
+				"date": "Mon May 12 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000034.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -471,6 +504,7 @@
 			},
 			"properties": {
 				"title": "Terrace, Utah",
+				"date": "Tue May 13 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000037.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -485,6 +519,7 @@
 			},
 			"properties": {
 				"title": "Matlin, Utah",
+				"date": "Tue May 13 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000037.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -499,6 +534,7 @@
 			},
 			"properties": {
 				"title": "Kelton, Utah",
+				"date": "Wed May 14 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000038.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -513,6 +549,7 @@
 			},
 			"properties": {
 				"title": "Promontory, Utah",
+				"date": "Thu May 15 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000042.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -527,6 +564,7 @@
 			},
 			"properties": {
 				"title": "Corinne, Utah",
+				"date": "Thu May 15 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000042.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -541,6 +579,7 @@
 			},
 			"properties": {
 				"title": "Ogden, Utah",
+				"date": "Fri May 16 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000044.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -555,6 +594,7 @@
 			},
 			"properties": {
 				"title": "Willard, Utah",
+				"date": "Fri May 16 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000044.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -569,6 +609,7 @@
 			},
 			"properties": {
 				"title": "Ogden, Utah",
+				"date": "Sat May 17 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000045.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -583,6 +624,7 @@
 			},
 			"properties": {
 				"title": "Thousand Mile Tree",
+				"date": "Sun May 18 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000048.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
@@ -597,6 +639,7 @@
 			},
 			"properties": {
 				"title": "Echo, Utah",
+				"date": "Sun May 18 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000048.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
