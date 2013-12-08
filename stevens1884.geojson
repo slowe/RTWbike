@@ -1125,6 +1125,111 @@
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
 			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-92.72472, 41.74361]
+			},
+			"properties": {
+				"title": "Grinnell",
+				"date": "Tue Jun 24 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000087.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-92.29722, 41.73028]
+			},
+			"properties": {
+				"title": "Victor, Iowa",
+				"date": "Tue Jun 24 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000087.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-91.96750, 41.77611]
+			},
+			"properties": {
+				"title": "South Amana, Iowa",
+				"date": "Tue Jun 24 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000087.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-91.66139, 41.70639]
+			},
+			"properties": {
+				"title": "Tiffin, Iowa",
+				"date": "Wed Jun 25 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000088.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-91.53611, 41.661278]
+			},
+			"properties": {
+				"title": "Iowa City, Iowa",
+				"date": "Fri Jun 27 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000089.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-91.08278, 41.57500]
+			},
+			"properties": {
+				"title": "Moscow, Iowa",
+				"date": "Fri Jun 27 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000089.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-90.59083, 41.54306]
+			},
+			"properties": {
+				"title": "Davenport, Iowa",
+				"date": "Fri Jun 27 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000089.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
 		}
 	]
 }
