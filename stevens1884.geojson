@@ -1050,6 +1050,66 @@
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
 			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-97.35861, 41.43278]
+			},
+			"properties": {
+				"title": "Columbus, Nebraska",
+				"date": "Sun Jun 15 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000081.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-96.49000, 41.43972]
+			},
+			"properties": {
+				"title": "Fremont, Nebraska",
+				"date": "Mon Jun 16 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000082.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-96.000, 41.250]
+			},
+			"properties": {
+				"title": "Omaha, Nebraska",
+				"date": "Mon Jun 16 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000082.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-95.418427, 41.235744]
+			},
+			"properties": {
+				"title": "Carson, Iowa",
+				"date": "Thu Jun 19 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000084.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
 		}
 	]
 }
