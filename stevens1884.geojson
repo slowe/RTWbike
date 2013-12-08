@@ -1470,6 +1470,231 @@
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
 			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-83.63000, 41.55028]
+			},
+			"properties": {
+				"title": "Perrysburg, Ohio",
+				"date": "Fri Jul 18 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000102.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-83.11722, 41.34889]
+			},
+			"properties": {
+				"title": "Fremont, Ohio",
+				"date": "Fri Jul 18 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000102.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-82.84222, 41.27583]
+			},
+			"properties": {
+				"title": "Bellevue, Ohio",
+				"date": "Fri Jul 18 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000102.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-82.61139, 41.24306]
+			},
+			"properties": {
+				"title": "Norwalk, Ohio",
+				"date": "Sun Jul 20 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000103.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-82.00472, 41.38944]
+			},
+			"properties": {
+				"title": "North Ridgeville, Ohio",
+				"date": "Sun Jul 20 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000103.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-81.66972, 41.48222]
+			},
+			"properties": {
+				"title": "Cleveland",
+				"date": "Sun Jul 20 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000103.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-81.5913944, 41.5109167]
+			},
+			"properties": {
+				"title": "Lake View Cemetery",
+				"date": "Sun Jul 20 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000103.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-81.51917, 41.59556]
+			},
+			"properties": {
+				"title": "Euclid, Ohio",
+				"date": "Sun Jul 20 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000103.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-81.40972, 41.64583]
+			},
+			"properties": {
+				"title": "Willoughby, Ohio",
+				"date": "Sun Jul 20 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000104.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-81.34722, 41.66222]
+			},
+			"properties": {
+				"title": "James A. Garfield National Historic Site",
+				"date": "Sun Jul 20 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000104.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-80.567, 41.950]
+			},
+			"properties": {
+				"title": "Conneaut, Ohio",
+				"date": "Mon Jul 21 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000105.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-80.473909, 41.945809]
+			},
+			"properties": {
+				"title": "West Springfield, Pennsylvania",
+				"date": "Mon Jul 21 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000105.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-80.32139, 42.00583]
+			},
+			"properties": {
+				"title": "Girard, Pennsylvania",
+				"date": "Mon Jul 21 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000105.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-80.0852139, 42.1295611]
+			},
+			"properties": {
+				"title": "Erie, Pennsylvania",
+				"date": "Mon Jul 21 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000105.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-79.583, 42.317]
+			},
+			"properties": {
+				"title": "Westfield, New York",
+				"date": "Tue Jul 22 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000106.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
 		}
 	]
 }
