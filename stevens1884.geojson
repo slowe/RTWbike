@@ -770,6 +770,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-107.23417, 41.79028]
+			},
+			"properties": {
+				"title": "Rawlings, Wyoming",
+				"date": "Thu May 29 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000061.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-106.94750, 41.77833]
 			},
 			"properties": {
