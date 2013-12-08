@@ -200,7 +200,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [-120.20361, 39.34222]
+				"coordinates": [-120.185194, 39.327703]
 			},
 			"properties": {
 				"title": "Truckee, California",
@@ -213,7 +213,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [-120.04778, 39.50944]
+				"coordinates": [-119.9892, 39.518763]
 			},
 			"properties": {
 				"title": "Verdi, California",
