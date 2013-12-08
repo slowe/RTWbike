@@ -9,7 +9,7 @@
 			},
 			"properties": {
 				"title": "Golden Gate Park, SF, CA",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000001.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000001.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -23,7 +23,7 @@
 			},
 			"properties": {
 				"title": "Oakland Jack London Square",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000001.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000001.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -37,7 +37,7 @@
 			},
 			"properties": {
 				"title": "San Pablo, CA",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000002.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000002.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -51,7 +51,7 @@
 			},
 			"properties": {
 				"title": "Suisun City, California",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000003.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000003.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -65,7 +65,7 @@
 			},
 			"properties": {
 				"title": "Elmira, CA",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000004.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000004.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -79,7 +79,7 @@
 			},
 			"properties": {
 				"title": "Davis, California",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000005.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000005.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -93,7 +93,7 @@
 			},
 			"properties": {
 				"title": "Sacramento, California",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000005.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000005.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -107,7 +107,7 @@
 			},
 			"properties": {
 				"title": "American River Bike Trail",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000006.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000006.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -121,7 +121,7 @@
 			},
 			"properties": {
 				"title": "Rocklin, California",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000008.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000008.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -135,7 +135,7 @@
 			},
 			"properties": {
 				"title": "Auburn, California",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000011.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000011.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -149,7 +149,7 @@
 			},
 			"properties": {
 				"title": "Clipper Gap, California",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000011.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000011.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -163,7 +163,7 @@
 			},
 			"properties": {
 				"title": "Cape Horn, Placer County, California",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000013.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000013.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -177,7 +177,7 @@
 			},
 			"properties": {
 				"title": "Dutch Flat, California",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000014.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000014.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -191,7 +191,7 @@
 			},
 			"properties": {
 				"title": "Donner Pass",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000015.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000015.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -205,7 +205,7 @@
 			},
 			"properties": {
 				"title": "Donner Lake",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000016.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000016.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -219,7 +219,7 @@
 			},
 			"properties": {
 				"title": "Truckee, California",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000016.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000016.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -233,7 +233,7 @@
 			},
 			"properties": {
 				"title": "Verdi, California",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000016.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000016.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -247,7 +247,7 @@
 			},
 			"properties": {
 				"title": "Reno, Nevada",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000017.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000017.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -261,7 +261,7 @@
 			},
 			"properties": {
 				"title": "Wadsworth, Nevada",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000019.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000019.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -275,7 +275,7 @@
 			},
 			"properties": {
 				"title": "Forty Mile Desert",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000019.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000019.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -289,7 +289,7 @@
 			},
 			"properties": {
 				"title": "Lovelock, Nevada",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000021.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000021.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -303,7 +303,7 @@
 			},
 			"properties": {
 				"title": "Rye Patch",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000021.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000021.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -317,7 +317,7 @@
 			},
 			"properties": {
 				"title": "Mill City, Nevada",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000022.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000022.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -331,7 +331,7 @@
 			},
 			"properties": {
 				"title": "Winnemucca, Nevada",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000022.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000022.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -345,7 +345,7 @@
 			},
 			"properties": {
 				"title": "Golconda, Nevada",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000023.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000023.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -359,7 +359,7 @@
 			},
 			"properties": {
 				"title": "Stone House, Nevada",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000024.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000024.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -373,7 +373,7 @@
 			},
 			"properties": {
 				"title": "Battle Mountain, Nevada",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000026.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000026.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -387,7 +387,7 @@
 			},
 			"properties": {
 				"title": "Beowawe, Nevada",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000026.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000026.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -401,7 +401,7 @@
 			},
 			"properties": {
 				"title": "Palisade, Nevada",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000028.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000028.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -415,7 +415,7 @@
 			},
 			"properties": {
 				"title": "Carlin, Nevada",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000029.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000029.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -429,7 +429,7 @@
 			},
 			"properties": {
 				"title": "Halleck, Nevada",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000032.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000032.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -443,7 +443,7 @@
 			},
 			"properties": {
 				"title": "Wells, Nevada",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000033.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000033.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -457,7 +457,7 @@
 			},
 			"properties": {
 				"title": "Montello, Nevada",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000034.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000034.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -471,7 +471,7 @@
 			},
 			"properties": {
 				"title": "Terrace, Utah",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000037.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000037.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -485,7 +485,7 @@
 			},
 			"properties": {
 				"title": "Matlin, Utah",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000037.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000037.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -499,7 +499,7 @@
 			},
 			"properties": {
 				"title": "Kelton, Utah",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000038.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000038.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -513,7 +513,7 @@
 			},
 			"properties": {
 				"title": "Promontory, Utah",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000042.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000042.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -527,7 +527,7 @@
 			},
 			"properties": {
 				"title": "Corinne, Utah",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000042.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000042.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -541,7 +541,7 @@
 			},
 			"properties": {
 				"title": "Ogden, Utah",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000044.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000044.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -555,7 +555,7 @@
 			},
 			"properties": {
 				"title": "Willard, Utah",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000044.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000044.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -569,7 +569,7 @@
 			},
 			"properties": {
 				"title": "Ogden, Utah",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000045.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000045.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -583,7 +583,7 @@
 			},
 			"properties": {
 				"title": "Thousand Mile Tree",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000048.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000048.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -597,7 +597,7 @@
 			},
 			"properties": {
 				"title": "Echo, Utah",
-				"blog-post": "<a href=\"http://strudel.org.uk/blog/stevens/000048.shtml\" target=\"_parent\">blog post</a>",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000048.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
