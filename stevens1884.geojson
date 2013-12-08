@@ -1695,6 +1695,456 @@
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
 			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-79.33389, 42.44083]
+			},
+			"properties": {
+				"title": "Fredonia, New York",
+				"date": "Tue Jul 22 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000106.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-79.16722, 42.54417]
+			},
+			"properties": {
+				"title": "Silver Creek, New York",
+				"date": "Tue Jul 22 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000106.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-79.03083, 42.63917]
+			},
+			"properties": {
+				"title": "Angola, New York",
+				"date": "Wed Jul 23 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000107.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-78.84944, 42.90472]
+			},
+			"properties": {
+				"title": "Buffalo, New York",
+				"date": "Wed Jul 23 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000107.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-79.071, 43.080]
+			},
+			"properties": {
+				"title": "Niagara Falls",
+				"date": "Wed Jul 23 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000108.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-78.84944, 42.90472]
+			},
+			"properties": {
+				"title": "Buffalo, New York",
+				"date": "Thu Jul 24 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000109.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-78.18417, 42.99861]
+			},
+			"properties": {
+				"title": "Batavia, New York",
+				"date": "Thu Jul 24 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000109.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-77.99222, 42.97750]
+			},
+			"properties": {
+				"title": "Le Roy, New York",
+				"date": "Fri Jul 25 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000110.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-77.8619194, 42.9969417]
+			},
+			"properties": {
+				"title": "Mumford, New York",
+				"date": "Fri Jul 25 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000110.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-77.28167, 42.88611]
+			},
+			"properties": {
+				"title": "Canandaigua %28city%29, New York",
+				"date": "Fri Jul 25 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000110.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-76.99306, 42.87889]
+			},
+			"properties": {
+				"title": "Geneva, New York",
+				"date": "Sat Jul 26 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000111.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-76.85944, 42.90361]
+			},
+			"properties": {
+				"title": "Waterloo, New York",
+				"date": "Sat Jul 26 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000111.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-76.79806, 42.90861]
+			},
+			"properties": {
+				"title": "Seneca Falls",
+				"date": "Sat Jul 26 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000111.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-76.72694, 42.91861]
+			},
+			"properties": {
+				"title": "Cayuga, New York",
+				"date": "Sat Jul 26 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000111.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-76.567, 42.933]
+			},
+			"properties": {
+				"title": "Auburn, New York",
+				"date": "Sat Jul 26 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000111.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-76.42833, 42.94667]
+			},
+			"properties": {
+				"title": "Skaneateles %28town%29, New York",
+				"date": "Sat Jul 26 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000111.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-76.34000, 42.98222]
+			},
+			"properties": {
+				"title": "Marcellus ",
+				"date": "Sun Jul 27 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000112.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-76.26083, 43.04250]
+			},
+			"properties": {
+				"title": "Camillus, New York",
+				"date": "Sun Jul 27 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000112.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-76.144423, 43.046899]
+			},
+			"properties": {
+				"title": "Syracuse, New York",
+				"date": "Mon Jul 28 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000113.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-75.46333, 43.21944]
+			},
+			"properties": {
+				"title": "Rome, New York",
+				"date": "Wed Jul 30 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000114.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-74.99028, 43.02611]
+			},
+			"properties": {
+				"title": "Herkimer %28village%29, New York",
+				"date": "Wed Jul 30 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000114.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-73.75722, 42.65250]
+			},
+			"properties": {
+				"title": "Albany, New York",
+				"date": "Thu Jul 31 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000115.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-73.69278, 42.53139]
+			},
+			"properties": {
+				"title": "Schodack, New York",
+				"date": "Thu Jul 31 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000115.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-73.411331, 42.350277]
+			},
+			"properties": {
+				"title": "State Line, Massachusetts",
+				"date": "Fri Aug 01 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000116.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-73.09222, 42.19306]
+			},
+			"properties": {
+				"title": "Otis, Massachusetts",
+				"date": "Fri Aug 01 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000116.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-72.75000, 42.12500]
+			},
+			"properties": {
+				"title": "Westfield, Massachusetts",
+				"date": "Sun Aug 03 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000117.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-72.547455, 42.112411]
+			},
+			"properties": {
+				"title": "Springfield, Massachusetts",
+				"date": "Sun Aug 03 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000117.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-72.32917, 42.15833]
+			},
+			"properties": {
+				"title": "Palmer, Massachusetts",
+				"date": "Sun Aug 03 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000117.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-71.800, 42.267]
+			},
+			"properties": {
+				"title": "Worcester, Massachusetts",
+				"date": "Sun Aug 03 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000117.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-71.06361, 42.35806]
+			},
+			"properties": {
+				"title": "Boston, Massachusetts",
+				"date": "Mon Aug 04 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000118.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
 		}
 	]
 }
