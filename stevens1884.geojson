@@ -620,6 +620,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-111.54806, 41.06361]
+			},
+			"properties": {
+				"title": "Devil's Slide",
+				"date": "Sun May 18 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000047.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-111.529238, 41.053055]
 			},
 			"properties": {
@@ -641,6 +656,81 @@
 				"title": "Echo, Utah",
 				"date": "Sun May 18 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000048.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-110.96472, 41.26333]
+			},
+			"properties": {
+				"title": "Evanston, Wyoming",
+				"date": "Tue May 20 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000051.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-110.813599, 41.140873]
+			},
+			"properties": {
+				"title": "Hilliard",
+				"date": "Wed May 21 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000052.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-110.62778, 41.21778]
+			},
+			"properties": {
+				"title": "Piedmont, Wyoming",
+				"date": "Fri May 23 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000054.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-110.38639, 41.31861]
+			},
+			"properties": {
+				"title": "Fort Bridger, Wyoming",
+				"date": "Fri May 23 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000054.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-110.43250, 41.44194]
+			},
+			"properties": {
+				"title": "Carter, Wyoming",
+				"date": "Fri May 23 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000054.shtml",
 				"marker-size": "medium",
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
