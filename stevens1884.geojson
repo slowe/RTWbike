@@ -9,6 +9,7 @@
 			},
 			"properties": {
 				"title": "Golden Gate Park, SF, CA",
+				"href": "http://strudel.org.uk/blog/stevens/000001.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -22,6 +23,7 @@
 			},
 			"properties": {
 				"title": "Oakland Jack London Square",
+				"href": "http://strudel.org.uk/blog/stevens/000001.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -35,6 +37,7 @@
 			},
 			"properties": {
 				"title": "San Pablo, CA",
+				"href": "http://strudel.org.uk/blog/stevens/000002.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -48,6 +51,7 @@
 			},
 			"properties": {
 				"title": "Suisun City, California",
+				"href": "http://strudel.org.uk/blog/stevens/000003.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -61,6 +65,7 @@
 			},
 			"properties": {
 				"title": "Elmira, CA",
+				"href": "http://strudel.org.uk/blog/stevens/000004.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -74,6 +79,7 @@
 			},
 			"properties": {
 				"title": "Davis, California",
+				"href": "http://strudel.org.uk/blog/stevens/000005.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -87,6 +93,7 @@
 			},
 			"properties": {
 				"title": "Sacramento, California",
+				"href": "http://strudel.org.uk/blog/stevens/000005.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -100,6 +107,7 @@
 			},
 			"properties": {
 				"title": "American River Bike Trail",
+				"href": "http://strudel.org.uk/blog/stevens/000006.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -113,6 +121,7 @@
 			},
 			"properties": {
 				"title": "Rocklin, California",
+				"href": "http://strudel.org.uk/blog/stevens/000008.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -126,6 +135,7 @@
 			},
 			"properties": {
 				"title": "Auburn, California",
+				"href": "http://strudel.org.uk/blog/stevens/000011.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -139,6 +149,7 @@
 			},
 			"properties": {
 				"title": "Clipper Gap, California",
+				"href": "http://strudel.org.uk/blog/stevens/000011.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -152,6 +163,7 @@
 			},
 			"properties": {
 				"title": "Cape Horn, Placer County, California",
+				"href": "http://strudel.org.uk/blog/stevens/000013.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -165,6 +177,7 @@
 			},
 			"properties": {
 				"title": "Dutch Flat, California",
+				"href": "http://strudel.org.uk/blog/stevens/000014.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -178,6 +191,7 @@
 			},
 			"properties": {
 				"title": "Donner Pass",
+				"href": "http://strudel.org.uk/blog/stevens/000015.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -191,6 +205,7 @@
 			},
 			"properties": {
 				"title": "Donner Lake",
+				"href": "http://strudel.org.uk/blog/stevens/000016.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -204,6 +219,7 @@
 			},
 			"properties": {
 				"title": "Truckee, California",
+				"href": "http://strudel.org.uk/blog/stevens/000016.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -217,6 +233,7 @@
 			},
 			"properties": {
 				"title": "Verdi, California",
+				"href": "http://strudel.org.uk/blog/stevens/000016.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -230,6 +247,7 @@
 			},
 			"properties": {
 				"title": "Reno, Nevada",
+				"href": "http://strudel.org.uk/blog/stevens/000017.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -243,6 +261,7 @@
 			},
 			"properties": {
 				"title": "Wadsworth, Nevada",
+				"href": "http://strudel.org.uk/blog/stevens/000019.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -256,6 +275,7 @@
 			},
 			"properties": {
 				"title": "Forty Mile Desert",
+				"href": "http://strudel.org.uk/blog/stevens/000019.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -269,6 +289,7 @@
 			},
 			"properties": {
 				"title": "Lovelock, Nevada",
+				"href": "http://strudel.org.uk/blog/stevens/000021.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -282,6 +303,7 @@
 			},
 			"properties": {
 				"title": "Rye Patch",
+				"href": "http://strudel.org.uk/blog/stevens/000021.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -295,6 +317,7 @@
 			},
 			"properties": {
 				"title": "Mill City, Nevada",
+				"href": "http://strudel.org.uk/blog/stevens/000022.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -308,6 +331,7 @@
 			},
 			"properties": {
 				"title": "Winnemucca, Nevada",
+				"href": "http://strudel.org.uk/blog/stevens/000022.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -321,6 +345,7 @@
 			},
 			"properties": {
 				"title": "Golconda, Nevada",
+				"href": "http://strudel.org.uk/blog/stevens/000023.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -334,6 +359,7 @@
 			},
 			"properties": {
 				"title": "Stone House, Nevada",
+				"href": "http://strudel.org.uk/blog/stevens/000024.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -347,6 +373,7 @@
 			},
 			"properties": {
 				"title": "Battle Mountain, Nevada",
+				"href": "http://strudel.org.uk/blog/stevens/000026.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -360,6 +387,7 @@
 			},
 			"properties": {
 				"title": "Beowawe, Nevada",
+				"href": "http://strudel.org.uk/blog/stevens/000026.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -373,6 +401,7 @@
 			},
 			"properties": {
 				"title": "Palisade, Nevada",
+				"href": "http://strudel.org.uk/blog/stevens/000028.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -386,6 +415,7 @@
 			},
 			"properties": {
 				"title": "Carlin, Nevada",
+				"href": "http://strudel.org.uk/blog/stevens/000029.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -399,6 +429,7 @@
 			},
 			"properties": {
 				"title": "Halleck, Nevada",
+				"href": "http://strudel.org.uk/blog/stevens/000032.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -412,6 +443,7 @@
 			},
 			"properties": {
 				"title": "Wells, Nevada",
+				"href": "http://strudel.org.uk/blog/stevens/000033.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -425,6 +457,7 @@
 			},
 			"properties": {
 				"title": "Montello, Nevada",
+				"href": "http://strudel.org.uk/blog/stevens/000034.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -438,6 +471,7 @@
 			},
 			"properties": {
 				"title": "Terrace, Utah",
+				"href": "http://strudel.org.uk/blog/stevens/000037.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -451,6 +485,7 @@
 			},
 			"properties": {
 				"title": "Matlin, Utah",
+				"href": "http://strudel.org.uk/blog/stevens/000037.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -464,6 +499,7 @@
 			},
 			"properties": {
 				"title": "Kelton, Utah",
+				"href": "http://strudel.org.uk/blog/stevens/000038.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -477,6 +513,7 @@
 			},
 			"properties": {
 				"title": "Promontory, Utah",
+				"href": "http://strudel.org.uk/blog/stevens/000042.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -490,6 +527,7 @@
 			},
 			"properties": {
 				"title": "Corinne, Utah",
+				"href": "http://strudel.org.uk/blog/stevens/000042.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -503,6 +541,7 @@
 			},
 			"properties": {
 				"title": "Ogden, Utah",
+				"href": "http://strudel.org.uk/blog/stevens/000044.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -516,6 +555,7 @@
 			},
 			"properties": {
 				"title": "Willard, Utah",
+				"href": "http://strudel.org.uk/blog/stevens/000044.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -529,6 +569,7 @@
 			},
 			"properties": {
 				"title": "Ogden, Utah",
+				"href": "http://strudel.org.uk/blog/stevens/000045.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -542,6 +583,7 @@
 			},
 			"properties": {
 				"title": "Thousand Mile Tree",
+				"href": "http://strudel.org.uk/blog/stevens/000048.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -555,6 +597,7 @@
 			},
 			"properties": {
 				"title": "Echo, Utah",
+				"href": "http://strudel.org.uk/blog/stevens/000048.shtml",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
