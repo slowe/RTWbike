@@ -2160,6 +2160,201 @@
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
 			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3, 53.4]
+			},
+			"properties": {
+				"title": "Liverpool",
+				"date": "Sun Apr 19 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000123.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.60288, 53.38732]
+			},
+			"properties": {
+				"title": "Warrington",
+				"date": "Sat May 02 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000128.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.15, 52.9]
+			},
+			"properties": {
+				"title": "Stone, Staffordshire",
+				"date": "Sun May 03 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000129.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.89361, 52.48306]
+			},
+			"properties": {
+				"title": "Birmingham",
+				"date": "Mon May 04 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000131.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.28386, 51.74785]
+			},
+			"properties": {
+				"title": "Stonehouse, Gloucestershire",
+				"date": "Mon May 04 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000131.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.51056, 52.40806]
+			},
+			"properties": {
+				"title": "Coventry",
+				"date": "Mon May 04 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000131.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.28961, 52.33675]
+			},
+			"properties": {
+				"title": "Dunchurch",
+				"date": "Tue May 05 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000132.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.08045, 52.23101]
+			},
+			"properties": {
+				"title": "Weedon Barracks",
+				"date": "Tue May 05 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000132.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.715, 51.998]
+			},
+			"properties": {
+				"title": "Fenny Stratford",
+				"date": "Tue May 05 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000132.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.56, 51.76]
+			},
+			"properties": {
+				"title": "Berkhamstead",
+				"date": "Sat May 09 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000134.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.395694, 51.65500]
+			},
+			"properties": {
+				"title": "Watford",
+				"date": "Sat May 09 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000134.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1652, 51.5166]
+			},
+			"properties": {
+				"title": "Edgeware Road",
+				"date": "Sat May 09 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000134.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.237007, 51.470154]
+			},
+			"properties": {
+				"title": "Barnes Common",
+				"date": "Sat May 09 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000134.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
 		}
 	]
 }
