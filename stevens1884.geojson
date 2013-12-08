@@ -5,10 +5,23 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [-122.34556, 37.96222]
+				"coordinates": [-122.47694, 37.76972]
 			},
 			"properties": {
-				"title": "San Pablo, CA",
+				"title": "Golden Gate Park, SF, CA",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-122.3310, 37.80]
+			},
+			"properties": {
+				"title": "Oakland Jack London Square",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -31,10 +44,10 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [-121.90806, 38.35000]
+				"coordinates": [-122.01694, 38.24500]
 			},
 			"properties": {
-				"title": "Elmira, CA",
+				"title": "Suisun City, California",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -48,6 +61,32 @@
 			},
 			"properties": {
 				"title": "Elmira, CA",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-121.73806, 38.55389]
+			},
+			"properties": {
+				"title": "Davis, California",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-121.46889, 38.55556]
+			},
+			"properties": {
+				"title": "Sacramento, California",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -161,6 +200,32 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-120.20361, 39.34222]
+			},
+			"properties": {
+				"title": "Truckee, California",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-120.04778, 39.50944]
+			},
+			"properties": {
+				"title": "Verdi, California",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-119.82194, 39.52722]
 			},
 			"properties": {
@@ -187,6 +252,19 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-118.83333, 39.56667]
+			},
+			"properties": {
+				"title": "Forty Mile Desert",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-118.47667, 40.18000]
 			},
 			"properties": {
@@ -200,10 +278,36 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-118.30944, 40.47056]
+			},
+			"properties": {
+				"title": "Rye Patch Dam",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-118.07056, 40.68361]
 			},
 			"properties": {
 				"title": "Mill City, Nevada",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-117.72667, 40.96833]
+			},
+			"properties": {
+				"title": "Winnemucca, Nevada",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -243,6 +347,19 @@
 			},
 			"properties": {
 				"title": "Battle Mountain, Nevada",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-116.47611, 40.59194]
+			},
+			"properties": {
+				"title": "Beowawe, Nevada",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -330,6 +447,19 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-113.35889, 41.55944]
+			},
+			"properties": {
+				"title": "Matlin, Utah",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-113.10639, 41.74611]
 			},
 			"properties": {
@@ -356,10 +486,10 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [-112.11389, 41.54861]
+				"coordinates": [-111.96111, 41.22778]
 			},
 			"properties": {
-				"title": "Corinne, Utah",
+				"title": "Ogden, Utah",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -369,10 +499,10 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [-111.96111, 41.22778]
+				"coordinates": [-112.03972, 41.41194]
 			},
 			"properties": {
-				"title": "Ogden, Utah",
+				"title": "Willard, Utah",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -399,6 +529,19 @@
 			},
 			"properties": {
 				"title": "Thousand Mile Tree",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-111.443092, 40.976966]
+			},
+			"properties": {
+				"title": "Echo, Utah",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
