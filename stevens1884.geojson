@@ -965,7 +965,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [100.070171, 40.888168]
+				"coordinates": [-100.070171, 40.888168]
 			},
 			"properties": {
 				"title": "Willow Island",
