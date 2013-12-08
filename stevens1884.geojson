@@ -1230,6 +1230,126 @@
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
 			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-90.57306, 41.48917]
+			},
+			"properties": {
+				"title": "Rock Island, Illinois",
+				"date": "Fri Jun 27 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000089.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-90.56556, 41.44639]
+			},
+			"properties": {
+				"title": "Milan, Illinois",
+				"date": "Sat Jun 28 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000090.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-90.15333, 41.45000]
+			},
+			"properties": {
+				"title": "Geneseo, Illinois",
+				"date": "Sun Jun 29 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000091.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-90.01472, 41.41889]
+			},
+			"properties": {
+				"title": "Atkinson, Illinois",
+				"date": "Sun Jun 29 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000091.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-89.46694, 41.37861]
+			},
+			"properties": {
+				"title": "Princeton, Illinois",
+				"date": "Sun Jun 29 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000091.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-89.28111, 41.52917]
+			},
+			"properties": {
+				"title": "LaMoille, Illinois",
+				"date": "Sun Jun 29 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000091.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-88.44194, 41.66583]
+			},
+			"properties": {
+				"title": "Yorkville, Illinois",
+				"date": "Mon Jun 30 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000092.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-87.62778, 41.88194]
+			},
+			"properties": {
+				"title": "Chicago",
+				"date": "Fri Jul 04 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000094.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
 		}
 	]
 }
