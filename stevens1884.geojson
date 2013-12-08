@@ -1110,6 +1110,21 @@
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
 			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-93.62083, 41.59083]
+			},
+			"properties": {
+				"title": "Des Moines, Iowa",
+				"date": "Mon Jun 23 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000086.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
 		}
 	]
 }
