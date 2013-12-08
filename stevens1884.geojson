@@ -1350,6 +1350,126 @@
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
 			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-87.266808, 41.598671]
+			},
+			"properties": {
+				"title": "Miller, Indiana",
+				"date": "Sat Jul 12 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000095.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-87.05833, 41.60417]
+			},
+			"properties": {
+				"title": "Chesterton, Indiana",
+				"date": "Sun Jul 13 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000096.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-86.71750, 41.60917]
+			},
+			"properties": {
+				"title": "La Porte, Indiana",
+				"date": "Sun Jul 13 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000096.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-86.25528, 41.67250]
+			},
+			"properties": {
+				"title": "South Bend, Indiana",
+				"date": "Mon Jul 14 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000098.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-86.17139, 41.66750]
+			},
+			"properties": {
+				"title": "Mishawaka, Indiana",
+				"date": "Mon Jul 14 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000098.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-85.83667, 41.58194]
+			},
+			"properties": {
+				"title": "Goshen, Indiana",
+				"date": "Mon Jul 14 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000098.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-85.48222, 41.45694]
+			},
+			"properties": {
+				"title": "Wawaka, Indiana",
+				"date": "Tue Jul 15 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000099.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-84.12667, 41.39194]
+			},
+			"properties": {
+				"title": "Napoleon, Ohio",
+				"date": "Thu Jul 17 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000100.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
 		}
 	]
 }
