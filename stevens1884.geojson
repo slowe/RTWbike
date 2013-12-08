@@ -2225,10 +2225,10 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [-2.28386, 51.74785]
+				"coordinates": [-1.579027, 52.500976]
 			},
 			"properties": {
-				"title": "Stonehouse, Gloucestershire",
+				"title": "Stone House",
 				"date": "Mon May 04 1885",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000131.shtml",
 				"marker-size": "medium",
