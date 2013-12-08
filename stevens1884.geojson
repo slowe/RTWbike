@@ -885,6 +885,171 @@
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
 			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-103.31472, 41.21778]
+			},
+			"properties": {
+				"title": "Potter, Nebraska",
+				"date": "Thu Jun 05 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000071.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-102.97833, 41.13944]
+			},
+			"properties": {
+				"title": "Sidney, Nebraska",
+				"date": "Fri Jun 06 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000072.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-101.71944, 41.12889]
+			},
+			"properties": {
+				"title": "Ogallala, Nebraska",
+				"date": "Sat Jun 07 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000074.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-100.770501, 41.135914]
+			},
+			"properties": {
+				"title": "North Platte, Nebraska",
+				"date": "Mon Jun 09 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000075.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-100.368004, 41.022305]
+			},
+			"properties": {
+				"title": "Brady Island",
+				"date": "Mon Jun 09 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000075.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [100.070171, 40.888168]
+			},
+			"properties": {
+				"title": "Willow Island",
+				"date": "Tue Jun 10 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000076.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-99.37528, 40.71861]
+			},
+			"properties": {
+				"title": "Elm Creek, Nebraska",
+				"date": "Wed Jun 11 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000077.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-99.08111, 40.70083]
+			},
+			"properties": {
+				"title": "Kearney, Nebraska",
+				"date": "Thu Jun 12 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000078.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-98.35806, 40.92222]
+			},
+			"properties": {
+				"title": "Grand Island, Nebraska",
+				"date": "Sat Jun 14 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000080.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-98.00250, 41.11389]
+			},
+			"properties": {
+				"title": "Central City, Nebraska",
+				"date": "Sat Jun 14 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000080.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-97.49528, 41.39000]
+			},
+			"properties": {
+				"title": "Duncan, Nebraska",
+				"date": "Sat Jun 14 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000080.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
 		}
 	]
 }
