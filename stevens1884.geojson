@@ -735,6 +735,141 @@
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
 			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-109.46500, 41.51417]
+			},
+			"properties": {
+				"title": "Green River, Wyoming",
+				"date": "Sun May 25 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000056.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-109.22250, 41.59083]
+			},
+			"properties": {
+				"title": "Rock Springs, Wyoming",
+				"date": "Sun May 25 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000056.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-106.94750, 41.77833]
+			},
+			"properties": {
+				"title": "Fort Fred Steele State Historic Site",
+				"date": "Thu May 29 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000061.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-106.37694, 41.84861]
+			},
+			"properties": {
+				"title": "Carbon, Wyoming",
+				"date": "Thu May 29 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000062.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-106.20278, 41.89778]
+			},
+			"properties": {
+				"title": "Medicine Bow, Wyoming",
+				"date": "Fri May 30 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000063.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-105.97472, 41.74083]
+			},
+			"properties": {
+				"title": "Rock River, Wyoming",
+				"date": "Fri May 30 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000064.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-105.583, 41.317]
+			},
+			"properties": {
+				"title": "Laramie City",
+				"date": "Sat May 31 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000065.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-104.80194, 41.14556]
+			},
+			"properties": {
+				"title": "Cheyenne, Wyoming",
+				"date": "Tue Jun 03 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000066.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-104.06861, 41.17944]
+			},
+			"properties": {
+				"title": "Pine Bluffs, Wyoming",
+				"date": "Thu Jun 05 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000070.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
 		}
 	]
 }
