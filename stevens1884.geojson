@@ -281,7 +281,7 @@
 				"coordinates": [-118.30944, 40.47056]
 			},
 			"properties": {
-				"title": "Rye Patch Dam",
+				"title": "Rye Patch",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -385,7 +385,7 @@
 				"coordinates": [-116.113127, 40.714186]
 			},
 			"properties": {
-				"title": "Carlin",
+				"title": "Carlin, Nevada",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
@@ -464,6 +464,19 @@
 			},
 			"properties": {
 				"title": "Kelton, Utah",
+				"marker-size": "medium",
+				"marker-color": "#A98943",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-112.54750, 41.61861]
+			},
+			"properties": {
+				"title": "Promontory, Utah",
 				"marker-size": "medium",
 				"marker-color": "#A98943",
 				"marker-symbol": "bicycle"
