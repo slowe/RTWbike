@@ -740,6 +740,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-109.96667, 41.59417]
+			},
+			"properties": {
+				"title": "Granger, Wyoming",
+				"date": "Sat May 24 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000055.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-109.46500, 41.51417]
 			},
 			"properties": {
