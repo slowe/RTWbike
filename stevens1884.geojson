@@ -5,7 +5,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [37.96222, -122.34556]
+				"coordinates": [-122.34556, 37.96222]
 			},
 			"properties": {
 				"title": "San Pablo, CA",
@@ -18,7 +18,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [37.96222, -122.34556]
+				"coordinates": [-122.34556, 37.96222]
 			},
 			"properties": {
 				"title": "San Pablo, CA",
@@ -31,7 +31,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [38.35000, -121.90806]
+				"coordinates": [-121.90806, 38.35000]
 			},
 			"properties": {
 				"title": "Elmira, CA",
@@ -44,7 +44,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [38.35000, -121.90806]
+				"coordinates": [-121.90806, 38.35000]
 			},
 			"properties": {
 				"title": "Elmira, CA",
@@ -57,7 +57,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [38.60694, -121.50167]
+				"coordinates": [-121.50167, 38.60694]
 			},
 			"properties": {
 				"title": "American River Bike Trail",
@@ -70,7 +70,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [38.80000, -121.24667]
+				"coordinates": [-121.24667, 38.80000]
 			},
 			"properties": {
 				"title": "Rocklin, California",
@@ -83,7 +83,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [38.89861, -121.07444]
+				"coordinates": [-121.07444, 38.89861]
 			},
 			"properties": {
 				"title": "Auburn, California",
@@ -96,7 +96,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [38.96944, -121.01750]
+				"coordinates": [-121.01750, 38.96944]
 			},
 			"properties": {
 				"title": "Clipper Gap, California",
@@ -109,7 +109,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [39.12917, -120.92472]
+				"coordinates": [-120.92472, 39.12917]
 			},
 			"properties": {
 				"title": "Cape Horn, Placer County, California",
@@ -122,7 +122,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [39.20611, -120.83778]
+				"coordinates": [-120.83778, 39.20611]
 			},
 			"properties": {
 				"title": "Dutch Flat, California",
@@ -135,7 +135,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [39.31583, -120.32139]
+				"coordinates": [-120.32139, 39.31583]
 			},
 			"properties": {
 				"title": "Donner Pass",
@@ -148,7 +148,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [39.32278, -120.26444]
+				"coordinates": [-120.26444, 39.32278]
 			},
 			"properties": {
 				"title": "Donner Lake",
@@ -161,7 +161,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [39.52722, -119.82194]
+				"coordinates": [-119.82194, 39.52722]
 			},
 			"properties": {
 				"title": "Reno, Nevada",
@@ -174,7 +174,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [39.63556, -119.28306]
+				"coordinates": [-119.28306, 39.63556]
 			},
 			"properties": {
 				"title": "Wadsworth, Nevada",
@@ -187,7 +187,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [40.18000, -118.47667]
+				"coordinates": [-118.47667, 40.18000]
 			},
 			"properties": {
 				"title": "Lovelock, Nevada",
@@ -200,7 +200,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [40.68361, -118.07056]
+				"coordinates": [-118.07056, 40.68361]
 			},
 			"properties": {
 				"title": "Mill City, Nevada",
@@ -213,7 +213,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [40.95333, -117.48917]
+				"coordinates": [-117.48917, 40.95333]
 			},
 			"properties": {
 				"title": "Golconda, Nevada",
@@ -226,7 +226,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [40.83722, -117.17194]
+				"coordinates": [-117.17194, 40.83722]
 			},
 			"properties": {
 				"title": "Stone House, Nevada",
@@ -239,7 +239,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [40.63944, -116.93722]
+				"coordinates": [-116.93722, 40.63944]
 			},
 			"properties": {
 				"title": "Battle Mountain, Nevada",
@@ -252,7 +252,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [40.61028, -116.19861]
+				"coordinates": [-116.19861, 40.61028]
 			},
 			"properties": {
 				"title": "Palisade, Nevada",
@@ -265,7 +265,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [40.714186, -116.113127]
+				"coordinates": [-116.113127, 40.714186]
 			},
 			"properties": {
 				"title": "Carlin",
@@ -278,7 +278,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [40.95083, -115.45278]
+				"coordinates": [-115.45278, 40.95083]
 			},
 			"properties": {
 				"title": "Halleck, Nevada",
@@ -291,7 +291,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [41.10944, -114.96889]
+				"coordinates": [-114.96889, 41.10944]
 			},
 			"properties": {
 				"title": "Wells, Nevada",
@@ -304,7 +304,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [41.26139, -114.19417]
+				"coordinates": [-114.19417, 41.26139]
 			},
 			"properties": {
 				"title": "Montello, Nevada",
@@ -317,7 +317,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [41.50361, -113.51694]
+				"coordinates": [-113.51694, 41.50361]
 			},
 			"properties": {
 				"title": "Terrace, Utah",
@@ -330,7 +330,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [41.74611, -113.10639]
+				"coordinates": [-113.10639, 41.74611]
 			},
 			"properties": {
 				"title": "Kelton, Utah",
@@ -343,7 +343,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [41.54861, -112.11389]
+				"coordinates": [-112.11389, 41.54861]
 			},
 			"properties": {
 				"title": "Corinne, Utah",
@@ -356,7 +356,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [41.54861, -112.11389]
+				"coordinates": [-112.11389, 41.54861]
 			},
 			"properties": {
 				"title": "Corinne, Utah",
@@ -369,7 +369,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [41.22778, -111.96111]
+				"coordinates": [-111.96111, 41.22778]
 			},
 			"properties": {
 				"title": "Ogden, Utah",
@@ -382,7 +382,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [41.22778, -111.96111]
+				"coordinates": [-111.96111, 41.22778]
 			},
 			"properties": {
 				"title": "Ogden, Utah",
@@ -395,7 +395,7 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [41.053055, -111.529238]
+				"coordinates": [-111.529238, 41.053055]
 			},
 			"properties": {
 				"title": "Thousand Mile Tree",
