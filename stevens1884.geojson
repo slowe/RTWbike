@@ -140,6 +140,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-121.13333, 38.87417]
+			},
+			"properties": {
+				"title": "Newcastle, California",
+				"date": "Sat Apr 26 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000010.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-121.07444, 38.89861]
 			},
 			"properties": {
@@ -455,6 +470,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-115.767, 40.833]
+			},
+			"properties": {
+				"title": "Elko",
+				"date": "Sat May 10 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000031.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-115.45278, 40.95083]
 			},
 			"properties": {
@@ -491,6 +521,21 @@
 				"title": "Montello, Nevada",
 				"date": "Mon May 12 1884",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000034.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-114.0861, 41.3193]
+			},
+			"properties": {
+				"title": "Tecoma",
+				"date": "Mon May 12 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000035.shtml",
 				"marker-size": "medium",
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
@@ -2255,6 +2300,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-1.51552, 52.40412]
+			},
+			"properties": {
+				"title": "the Starley Memorial",
+				"date": "Mon May 04 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000131.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-1.28961, 52.33675]
 			},
 			"properties": {
@@ -2351,6 +2411,231 @@
 				"title": "Barnes Common",
 				"date": "Sat May 09 1885",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000134.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.13504, 50.81952]
+			},
+			"properties": {
+				"title": "Brighton Aquarium",
+				"date": "Sun May 10 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000135.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.06, 50.80]
+			},
+			"properties": {
+				"title": "Newhaven, East Sussex",
+				"date": "Mon May 11 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000136.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.0786, 49.9222]
+			},
+			"properties": {
+				"title": "Dieppe, France",
+				"date": "Mon May 11 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000136.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.1270535, 49.8772351]
+			},
+			"properties": {
+				"title": "Chateau d'Arques",
+				"date": "Mon May 11 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000136.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.1111, 49.6003]
+			},
+			"properties": {
+				"title": "Cl%C3%A8res",
+				"date": "Mon May 11 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000136.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.0963, 49.4412]
+			},
+			"properties": {
+				"title": "Rouen",
+				"date": "Mon May 11 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000136.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.0092, 49.2867]
+			},
+			"properties": {
+				"title": "Elbeuf",
+				"date": "Mon May 11 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000136.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.336, 49.161]
+			},
+			"properties": {
+				"title": "Gaillon",
+				"date": "Tue May 12 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000138.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.4858, 49.0925]
+			},
+			"properties": {
+				"title": "Vernon, Eure",
+				"date": "Tue May 12 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000138.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.7172, 48.9908]
+			},
+			"properties": {
+				"title": "Mantes",
+				"date": "Tue May 12 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000138.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.7172, 48.9908]
+			},
+			"properties": {
+				"title": "Mantes-la-Jolie",
+				"date": "Wed May 13 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000139.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2.0938, 48.8989]
+			},
+			"properties": {
+				"title": "Saint-Germain-en-Laye",
+				"date": "Wed May 13 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000139.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2.1969, 48.8988]
+			},
+			"properties": {
+				"title": "Nanterre",
+				"date": "Wed May 13 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000139.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2.2950, 48.8738]
+			},
+			"properties": {
+				"title": "Arc de Triomphe",
+				"date": "Wed May 13 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000139.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2.28222, 48.87778]
+			},
+			"properties": {
+				"title": "Porte Maillot",
+				"date": "Wed May 13 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000139.shtml",
 				"marker-size": "medium",
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
