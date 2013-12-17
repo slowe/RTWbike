@@ -2810,10 +2810,10 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [6.8489, 47.3864]
+				"coordinates": [6.8431, 48.5906]
 			},
 			"properties": {
-				"title": "Blamont",
+				"title": "Bl%C3%A2mont",
 				"date": "Wed May 20 1885",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000147.shtml",
 				"marker-size": "medium",
