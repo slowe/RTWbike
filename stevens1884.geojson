@@ -2640,6 +2640,321 @@
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
 			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2.30750, 48.86972]
+			},
+			"properties": {
+				"title": "Champs Elysees",
+				"date": "Sat May 16 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000141.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2.395792, 48.839644]
+			},
+			"properties": {
+				"title": "Porte Daumesnil",
+				"date": "Sat May 16 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000142.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2.4392, 48.8478]
+			},
+			"properties": {
+				"title": "Vincennes",
+				"date": "Sat May 16 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000142.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [3.299, 48.5604]
+			},
+			"properties": {
+				"title": "Provins",
+				"date": "Sat May 16 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000142.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [3.5581, 48.5919]
+			},
+			"properties": {
+				"title": "Villenauxe-la-Grande",
+				"date": "Sat May 16 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000142.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [3.7236, 48.7197]
+			},
+			"properties": {
+				"title": "S%C3%A9zanne",
+				"date": "Sun May 17 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000143.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [4.5853, 48.7256]
+			},
+			"properties": {
+				"title": "Vitry-le-Fran&ccedil;ois",
+				"date": "Sun May 17 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000143.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [5.1603, 48.7719]
+			},
+			"properties": {
+				"title": "Bar-le-Duc",
+				"date": "Sun May 17 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000144.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [5.9206, 49.0858]
+			},
+			"properties": {
+				"title": "Tronville",
+				"date": "Mon May 18 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000145.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [6.1846, 48.6936]
+			},
+			"properties": {
+				"title": "Nancy, France",
+				"date": "Tue May 19 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000146.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [6.5017, 48.5894]
+			},
+			"properties": {
+				"title": "Lun&eacute;ville",
+				"date": "Wed May 20 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000147.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [6.8489, 47.3864]
+			},
+			"properties": {
+				"title": "Blamont",
+				"date": "Wed May 20 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000147.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [7.0544, 48.7353]
+			},
+			"properties": {
+				"title": "Sarrebourg",
+				"date": "Thu May 21 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000148.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [7.2592, 48.7686]
+			},
+			"properties": {
+				"title": "Pfalzburg",
+				"date": "Thu May 21 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000148.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [7.3628, 48.7422]
+			},
+			"properties": {
+				"title": "Saverne",
+				"date": "Thu May 21 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000149.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [7.4939, 48.6236]
+			},
+			"properties": {
+				"title": "Marlenheim",
+				"date": "Thu May 21 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000149.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [7.7486, 48.5844]
+			},
+			"properties": {
+				"title": "Strasbourg",
+				"date": "Thu May 21 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000149.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [8.07889, 48.53083]
+			},
+			"properties": {
+				"title": "Oberkirch %28Baden%29",
+				"date": "Thu May 21 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000150.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [8.07889, 48.53083]
+			},
+			"properties": {
+				"title": "Oberkirch (Baden)",
+				"date": "Fri May 22 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000151.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [8.15944, 48.47361]
+			},
+			"properties": {
+				"title": "Oppenau",
+				"date": "Fri May 22 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000151.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [15.90000, 48.18333]
+			},
+			"properties": {
+				"title": "Neulengbach",
+				"date": "Sun May 31 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000163.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
 		}
 	]
 }
