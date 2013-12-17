@@ -2945,12 +2945,282 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [9.17944, 48.7786]
+			},
+			"properties": {
+				"title": "Wurtemberg",
+				"date": "Fri May 22 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000151.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [8.41111, 48.46333]
+			},
+			"properties": {
+				"title": "Freudenstadt",
+				"date": "Fri May 22 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000151.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [8.93444, 48.47722]
+			},
+			"properties": {
+				"title": "Rottenburg am Neckar",
+				"date": "Fri May 22 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000151.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [9.78500, 48.41194]
+			},
+			"properties": {
+				"title": "Blaubeuren",
+				"date": "Sat May 23 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000152.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [9.983, 48.400]
+			},
+			"properties": {
+				"title": "Ulm",
+				"date": "Sun May 24 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000153.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [10.90000, 48.36667]
+			},
+			"properties": {
+				"title": "Augsburg",
+				"date": "Sun May 24 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000153.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [10.9711, 48.3527]
+			},
+			"properties": {
+				"title": "Friedburg",
+				"date": "Mon May 25 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000154.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [11.56667, 48.13333]
+			},
+			"properties": {
+				"title": "Munich",
+				"date": "Mon May 25 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000155.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [12.183, 48.167]
+			},
+			"properties": {
+				"title": "Haag in Oberbayern",
+				"date": "Wed May 27 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000157.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [12.52278, 48.24556]
+			},
+			"properties": {
+				"title": "Muhldorf",
+				"date": "Wed May 27 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000157.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [12.67833, 48.22667]
+			},
+			"properties": {
+				"title": "Altoetting",
+				"date": "Wed May 27 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000157.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [13.017, 48.267]
+			},
+			"properties": {
+				"title": "Simbach am Inn",
+				"date": "Thu May 28 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000158.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [13.23333, 48.25000]
+			},
+			"properties": {
+				"title": "Altheim, Austria",
+				"date": "Thu May 28 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000159.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [13.64222, 48.18556]
+			},
+			"properties": {
+				"title": "Haag am Hausruck",
+				"date": "Thu May 28 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000159.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [13.87750, 48.09444]
+			},
+			"properties": {
+				"title": "Lambach",
+				"date": "Fri May 29 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000160.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [14.650, 48.150]
+			},
+			"properties": {
+				"title": "Strengberg",
+				"date": "Sat May 30 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000161.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [15.350, 48.233]
+			},
+			"properties": {
+				"title": "Melk",
+				"date": "Sat May 30 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000162.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [15.90000, 48.18333]
 			},
 			"properties": {
 				"title": "Neulengbach",
 				"date": "Sun May 31 1885",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000163.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [16.37306, 48.20833]
+			},
+			"properties": {
+				"title": "Vienna",
+				"date": "Wed Jun 03 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000164.shtml",
 				"marker-size": "medium",
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
