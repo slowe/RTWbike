@@ -3405,6 +3405,81 @@
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
 			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [18.86538, 47.11895]
+			},
+			"properties": {
+				"title": "Adony",
+				"date": "Mon Jun 08 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000170.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [18.91268, 46.98065]
+			},
+			"properties": {
+				"title": "Dunapentele",
+				"date": "Mon Jun 08 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000170.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [18.855918, 46.622047]
+			},
+			"properties": {
+				"title": "Paks",
+				"date": "Wed Jun 10 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000171.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [18.70382, 46.35597]
+			},
+			"properties": {
+				"title": "Szeksz&aacute;rd",
+				"date": "Wed Jun 10 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000171.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [18.767, 46.083]
+			},
+			"properties": {
+				"title": "Dunaszekcs&#337;",
+				"date": "Wed Jun 10 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000172.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
 		}
 	]
 }
