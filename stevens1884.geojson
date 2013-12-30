@@ -3225,6 +3225,51 @@
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
 			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [17.63444, 47.68417]
+			},
+			"properties": {
+				"title": "Gy&Aring;&lsquo;r",
+				"date": "Sat Jun 06 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000167.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [18.34510, 47.73290]
+			},
+			"properties": {
+				"title": "Neszm&Atilde;&copy;ly",
+				"date": "Sat Jun 06 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000167.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [19.05028, 47.47194]
+			},
+			"properties": {
+				"title": "Budapest",
+				"date": "Sat Jun 06 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000168.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
 		}
 	]
 }
