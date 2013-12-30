@@ -35,6 +35,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-122.3310, 37.80]
+			},
+			"properties": {
+				"title": "San Pablo Avenue, Oakland",
+				"date": "Tue Apr 22 1884",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000002.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-122.34556, 37.96222]
 			},
 			"properties": {
@@ -3230,10 +3245,130 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [16.47861, 48.14111]
+			},
+			"properties": {
+				"title": "Schwechat",
+				"date": "Thu Jun 04 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000165.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [16.850, 48.117]
+			},
+			"properties": {
+				"title": "Petronell-Carnuntum",
+				"date": "Thu Jun 04 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000165.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [16.94611, 48.14583]
+			},
+			"properties": {
+				"title": "Hainburg an der Donau",
+				"date": "Thu Jun 04 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000165.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [16.854312, 48.103994]
+			},
+			"properties": {
+				"title": "Heidentor",
+				"date": "Thu Jun 04 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000165.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [17.10972, 48.14389]
+			},
+			"properties": {
+				"title": "Bratislava",
+				"date": "Thu Jun 04 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000165.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [17.10000, 48.14222]
+			},
+			"properties": {
+				"title": "Bratislava Castle",
+				"date": "Thu Jun 04 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000165.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [17.26873, 47.87371]
+			},
+			"properties": {
+				"title": "Mosonmagyar&#243;v&#225;r",
+				"date": "Thu Jun 04 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000165.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [17.63444, 47.68417]
 			},
 			"properties": {
 				"title": "Gy&Aring;&lsquo;r",
+				"date": "Sat Jun 06 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000167.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [17.8333000, 47.7333000]
+			},
+			"properties": {
+				"title": "G&ouml;ny&amp;#369;",
 				"date": "Sat Jun 06 1885",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000167.shtml",
 				"marker-size": "medium",
