@@ -35,7 +35,7 @@ $output = "{\n\t\"type\": \"FeatureCollection\",\n\t\"features\": [\n";
 
 $f = 0;
 
-$output .= "\t\t{\n\t\t\t\"type\": \"Feature\",\n\t\t\t\"properties\": {\n\t\t\t\t\"name\": \"Actual route\",\n\t\t\t\t\"desc\": \"The actual route ridden between April 22, 2014 and July 31, 2014. Some sections near people's houses have been removed.\",\n\t\t\t\t\"time\": \"2014-04-22T08:05:00+0800\"\n\t\t\t\t\"stroke\": \"#009d00\"\n\t\t\t},\n\t\t\t\"geometry\": {\n\t\t\t\t\"type\": \"LineString\",\n\t\t\t\t\"coordinates\": [\n";
+$output .= "\t\t{\n\t\t\t\"type\": \"Feature\",\n\t\t\t\"properties\": {\n\t\t\t\t\"name\": \"Actual route\",\n\t\t\t\t\"desc\": \"The actual route ridden between April 22, 2014 and July 31, 2014. Some sections near people's houses have been removed.\",\n\t\t\t\t\"time\": \"2014-04-22T08:05:00+0800\",\n\t\t\t\t\"stroke\": \"#009d00\"\n\t\t\t},\n\t\t\t\"geometry\": {\n\t\t\t\t\"type\": \"LineString\",\n\t\t\t\t\"coordinates\": [\n";
 #$output .= "\t\t\t\t\t[";
 
 
