@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 #============================================================
-# Parse a directory of .gpx files into a single geojson file.
+# Parse a directory of .gpx files into a single geojson file
 #============================================================
 
 $dir = $ARGV[0];
