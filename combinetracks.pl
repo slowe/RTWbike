@@ -30,10 +30,10 @@ while(readdir $dh) {
 }
 closedir($dh);
 
-$f = 0;
 
 $output = "{\n\t\"type\": \"FeatureCollection\",\n\t\"features\": [\n";
-$output .= "\t\t{\n\t\t\t\"type\": \"Feature\",\n\t\t\t\"properties\": {\n\t\t\t\t\"name\": \"Actual route\",\n\t\t\t\t\"desc\": \"The actual route ridden between April 22, 2014 and July 31, 2014. Some sections near people's houses have been removed.\",\n\t\t\t\t\"time\": \"2014-04-22T08:05:00+0800\",\n\t\t\t\t\"stroke\": \"#009d00\"\n\t\t\t},\n\t\t\t\"geometry\": {\n\t\t\t\t\"type\": \"LineString\",\n\t\t\t\t\"coordinates\": [\n";
+
+$f = 0;
 
 # Process each track
 foreach $file (@files){
@@ -62,9 +62,12 @@ foreach $file (@files){
 	$name =~ s/\.gpx//g;
 
 	if($name){
+
 		if($f > 0){
 			$output .= ",\n";
 		}
+	
+		$output .= "\t\t{\n\t\t\t\"type\": \"Feature\",\n\t\t\t\"properties\": {\n\t\t\t\t\"name\": \"$name\",\n\t\t\t\t\"desc\": \"$name\",\n\t\t\t\t\"time\": \"2014-04-22T08:05:00+0800\",\n\t\t\t\t\"stroke\": \"#009d00\"\n\t\t\t},\n\t\t\t\"geometry\": {\n\t\t\t\t\"type\": \"LineString\",\n\t\t\t\t\"coordinates\": [\n";
 		
 		for($i = 0 ; $i < @lats; $i++){
 			if($i > 0){
@@ -75,10 +78,10 @@ foreach $file (@files){
 	
 		$f++;
 		print "$name ($file)\n";
+		$output .= "\n\t\t\t\t]\n\t\t\t}\n\t\t}";
 	}
 }
 
-$output .= "\n\t\t\t\t]\n\t\t\t}\n\t\t}";
 $output .= "\n\t]\n}";
 
 open(FILE,">","lowe2014real.geojson");
