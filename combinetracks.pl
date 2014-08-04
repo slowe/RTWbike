@@ -1,4 +1,7 @@
 #!/usr/bin/perl
+#============================================
+# Parse .gpx files into a single geojson file
+#============================================
 
 $dir = $ARGV[0];
 
@@ -15,6 +18,7 @@ if(!-d $dir){
 }
 
 $dir =~ s/\/$//g;
+
 # Read the directory for .gpx files
 opendir($dh,$dir);
 @files = ();
