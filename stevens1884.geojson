@@ -3635,12 +3635,192 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [20.933, 44.667]
+			},
+			"properties": {
+				"title": "Smederevo",
+				"date": "Wed Jun 17 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000182.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [20.717, 44.667]
 			},
 			"properties": {
 				"title": "Grocka",
 				"date": "Wed Jun 17 1885",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000182.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.250, 43.967]
+			},
+			"properties": {
+				"title": "Jagodina",
+				"date": "Thu Jun 18 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000183.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.367, 43.933]
+			},
+			"properties": {
+				"title": "Ćuprija",
+				"date": "Fri Jun 19 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000184.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.57944, 43.61472]
+			},
+			"properties": {
+				"title": "Deligrad",
+				"date": "Fri Jun 19 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000184.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.700, 43.550]
+			},
+			"properties": {
+				"title": "Aleksinac",
+				"date": "Fri Jun 19 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000184.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.9, 43.3]
+			},
+			"properties": {
+				"title": "Niš",
+				"date": "Fri Jun 19 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000184.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.9238, 43.3122]
+			},
+			"properties": {
+				"title": "Skull Tower",
+				"date": "Sat Jun 20 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000185.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.317, 43.217]
+			},
+			"properties": {
+				"title": "Bela Palanka",
+				"date": "Sat Jun 20 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000185.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.600, 43.167]
+			},
+			"properties": {
+				"title": "Pirot",
+				"date": "Mon Jun 22 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000187.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.783, 43.017]
+			},
+			"properties": {
+				"title": "Dimitrovgrad, Serbia",
+				"date": "Mon Jun 22 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000187.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.817, 42.433]
+			},
+			"properties": {
+				"title": "Ihtiman",
+				"date": "Tue Jun 23 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000191.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.333, 42.200]
+			},
+			"properties": {
+				"title": "Pazardzhik",
+				"date": "Thu Jun 25 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000192.shtml",
 				"marker-size": "medium",
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
