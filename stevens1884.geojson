@@ -2285,21 +2285,6 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [-1.579027, 52.500976]
-			},
-			"properties": {
-				"title": "Stone House",
-				"date": "Mon May 04 1885",
-				"blog-post": "http://strudel.org.uk/blog/stevens/000131.shtml",
-				"marker-size": "medium",
-				"marker-color": "#3A3737",
-				"marker-symbol": "bicycle"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [-1.51056, 52.40806]
 			},
 			"properties": {
