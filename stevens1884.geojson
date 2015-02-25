@@ -3800,6 +3800,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [23.333, 42.700]
+			},
+			"properties": {
+				"title": "Sofia",
+				"date": "Mon Jun 22 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000189.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [23.817, 42.433]
 			},
 			"properties": {
@@ -3821,6 +3836,171 @@
 				"title": "Pazardzhik",
 				"date": "Thu Jun 25 1885",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000192.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.750, 42.150]
+			},
+			"properties": {
+				"title": "Plovdiv",
+				"date": "Thu Jun 25 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000193.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.750, 42.150]
+			},
+			"properties": {
+				"title": "Cauheme",
+				"date": "Thu Jun 25 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000193.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.567, 41.933]
+			},
+			"properties": {
+				"title": "Haskovo",
+				"date": "Fri Jun 26 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000194.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.900, 41.933]
+			},
+			"properties": {
+				"title": "Harmanli",
+				"date": "Fri Jun 26 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000194.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.200, 41.767]
+			},
+			"properties": {
+				"title": "Svilengrad",
+				"date": "Fri Jun 26 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000194.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.567, 41.667]
+			},
+			"properties": {
+				"title": "Edirne",
+				"date": "Sat Jun 27 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000195.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.81639, 41.55000]
+			},
+			"properties": {
+				"title": "Havsa",
+				"date": "Sat Jun 27 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000195.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [27.09306, 41.43250]
+			},
+			"properties": {
+				"title": "Babaeski",
+				"date": "Sat Jun 27 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000195.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [27.800, 41.150]
+			},
+			"properties": {
+				"title": "Çorlu",
+				"date": "Mon Jun 29 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000198.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [28.250, 41.083]
+			},
+			"properties": {
+				"title": "Silivri",
+				"date": "Tue Jun 30 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000199.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [28.95500, 41.01361]
+			},
+			"properties": {
+				"title": "Istanbul",
+				"date": "Tue Jun 30 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000200.shtml",
 				"marker-size": "medium",
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
