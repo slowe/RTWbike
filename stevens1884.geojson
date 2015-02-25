@@ -2225,10 +2225,10 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [-3, 53.4]
+				"coordinates": [-2.95617, 53.40654]
 			},
 			"properties": {
-				"title": "Liverpool",
+				"title": "Edge Hill Church",
 				"date": "Sat May 02 1885",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000128.shtml",
 				"marker-size": "medium",
