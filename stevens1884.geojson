@@ -3480,6 +3480,171 @@
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
 			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [18.767, 46.083]
+			},
+			"properties": {
+				"title": "Dunaszekcs&amp;#337;",
+				"date": "Thu Jun 11 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000173.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [18.613, 45.794]
+			},
+			"properties": {
+				"title": "Branjin Vrh",
+				"date": "Thu Jun 11 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000173.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [18.6795889, 45.5575306]
+			},
+			"properties": {
+				"title": "Osijek",
+				"date": "Thu Jun 11 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000173.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [19.2824620600, 45.2338226400]
+			},
+			"properties": {
+				"title": "Šarengrad",
+				"date": "Sat Jun 13 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000175.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [19.867, 45.250]
+			},
+			"properties": {
+				"title": "Petrovaradin",
+				"date": "Mon Jun 15 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000178.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [19.850, 45.250]
+			},
+			"properties": {
+				"title": "Novi Sad",
+				"date": "Mon Jun 15 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000178.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.083, 45.050]
+			},
+			"properties": {
+				"title": "Indija",
+				"date": "Mon Jun 15 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000179.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.283, 44.900]
+			},
+			"properties": {
+				"title": "Batajnica",
+				"date": "Mon Jun 15 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000179.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.400, 44.850]
+			},
+			"properties": {
+				"title": "Zemun",
+				"date": "Tue Jun 16 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000180.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.467, 44.817]
+			},
+			"properties": {
+				"title": "Belgrade",
+				"date": "Tue Jun 16 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000180.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.717, 44.667]
+			},
+			"properties": {
+				"title": "Grocka",
+				"date": "Wed Jun 17 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000182.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
 		}
 	]
 }
