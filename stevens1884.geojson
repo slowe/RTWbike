@@ -2765,12 +2765,27 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [5.2792, 48.7211]
+			},
+			"properties": {
+				"title": "Tronville-en-Barrois",
+				"date": "Mon May 18 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000145.shtml",
+				"marker-size": "medium",
+				"marker-color": "#3A3737",
+				"marker-symbol": "bicycle"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [5.9206, 49.0858]
 			},
 			"properties": {
 				"title": "Tronville",
-				"date": "Mon May 18 1885",
-				"blog-post": "http://strudel.org.uk/blog/stevens/000145.shtml",
+				"date": "Tue May 19 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000146.shtml",
 				"marker-size": "medium",
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
