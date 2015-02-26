@@ -2780,27 +2780,12 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [5.9206, 49.0858]
-			},
-			"properties": {
-				"title": "Tronville",
-				"date": "Tue May 19 1885",
-				"blog-post": "http://strudel.org.uk/blog/stevens/000146.shtml",
-				"marker-size": "medium",
-				"marker-color": "#3A3737",
-				"marker-symbol": "bicycle"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [6.1846, 48.6936]
 			},
 			"properties": {
 				"title": "Nancy, France",
-				"date": "Tue May 19 1885",
-				"blog-post": "http://strudel.org.uk/blog/stevens/000146.shtml",
+				"date": "Wed May 20 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000147.shtml",
 				"marker-size": "medium",
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
