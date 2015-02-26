@@ -2723,7 +2723,7 @@
 				"coordinates": [3.7236, 48.7197]
 			},
 			"properties": {
-				"title": "S%C3%A9zanne",
+				"title": "S&eacute;zanne",
 				"date": "Sun May 17 1885",
 				"blog-post": "http://strudel.org.uk/blog/stevens/000143.shtml",
 				"marker-size": "medium",
@@ -2784,8 +2784,8 @@
 			},
 			"properties": {
 				"title": "Nancy, France",
-				"date": "Wed May 20 1885",
-				"blog-post": "http://strudel.org.uk/blog/stevens/000147.shtml",
+				"date": "Tue May 19 1885",
+				"blog-post": "http://strudel.org.uk/blog/stevens/000146.shtml",
 				"marker-size": "medium",
 				"marker-color": "#3A3737",
 				"marker-symbol": "bicycle"
