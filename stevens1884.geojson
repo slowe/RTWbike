@@ -2945,21 +2945,6 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [9.17944, 48.7786]
-			},
-			"properties": {
-				"title": "Wurtemberg",
-				"date": "Fri May 22 1885",
-				"blog-post": "http://strudel.org.uk/blog/stevens/000151.shtml",
-				"marker-size": "medium",
-				"marker-color": "#3A3737",
-				"marker-symbol": "bicycle"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [8.41111, 48.46333]
 			},
 			"properties": {
