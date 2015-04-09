@@ -13,10 +13,12 @@ open(FILE,"README.md");
 close(FILE);
 
 $inbody = 0;
+$recent = 4;
 for($i = 0; $i < @lines ; $i++){
 	$lines[$i] =~ s/[\n\r]//g;
-	if($lines[$i] =~ /^Title\:\t(.*)$/){ $title = $1; }
+	if($lines[$i] =~ /^Title\:\t(.*)$/){ $maintitle = $1; }
 	if($lines[$i] =~ /^Link\:\t(.*)$/){ $link = $1; }
+	if($lines[$i] =~ /^Recent\:\t(.*)$/){ $recent = $1; }
 	if($lines[$i] =~ /^Author\:\t(.*)$/){ $author = $1; }
 }
 
@@ -46,12 +48,17 @@ foreach $file (@filenames){
 }
 closedir $dh;
 
+$oldmonth = "";
+
+$list = "";
+@posts = ();
+
 for($i = 0; $i < @files; $i++){
 	$file = $files[$i];
 	print "$dir$file\n";
 	($title,$date,$post) = processPost($dir.$file);
 	$d = getDate(getJulianFromISO($date),"%D %d%e %M %Y (%t %Z)");
-	#print "$title - <time pubdate=\"$date\" datetime=\"$date\">$d</time>\n";
+	$month = getDate(getJulianFromISO($date),"%B %Y");
 
 	$html = "";
 	$content = "";
@@ -67,6 +74,7 @@ for($i = 0; $i < @files; $i++){
 	$post =~ s/([\n\r])/$1$indent$indent_entry/g;
 	$nav = "<nav>";
 	if($i > 0){ $nav .= "<a href=\"".$htmls[$i-1]."\" class=\"prev\">previous</a>"; }
+	#$nav .= "<a href=\"archive.html\" class=\"archive\">archive</a>";
 	if($i < @files - 1){ $nav .= "<a href=\"".$htmls[$i+1]."\" class=\"next\">next</a>"; }
 	$nav .= "</nav>\n";
 	
@@ -80,6 +88,18 @@ for($i = 0; $i < @files; $i++){
 		$str =~ s/\%[^\%]+\%//g;
 		$content .= $indent.$str;
 	}
+	$idx = "";
+	foreach $line (@template_entry){
+		$str = $line;
+		$str =~ s/\%NAV\%//g;
+		$str =~ s/\%TITLE\%/<a href="$htmls[$i]">$title<\/a>/g;
+		$str =~ s/\%AUTHOR\%/$author/g;
+		$str =~ s/\%POSTDATE\%/<time pubdate=\"$date\" datetime=\"$date\">$d<\/time>/g;
+		$str =~ s/\%ENTRY\%/$post/g;
+		$str =~ s/\%[^\%]+\%//g;
+		$idx .= $indent.$str;
+	}
+	push(@posts,$idx);
 
 	foreach $line (@template){
 		$str = $line;
@@ -92,8 +112,44 @@ for($i = 0; $i < @files; $i++){
 	open(FILE,">","$dir$htmls[$i]");
 	print FILE "$html\n";
 	close(FILE);
+
+	if(!$list){ $list = "$indent</ul>\n"; }
+	if($oldmonth && $month ne $oldmonth){ $list = "$indent<h2>$oldmonth</h2>\n$indent<ul>\n".$list; }
+	$list = "$indent\t<li><a href=\"$htmls[$i]\">$title</a></li>\n".$list;
+
+	$oldmonth = $month;
+	
+	if(@posts > $recent){ shift(@posts); }
 }
 
+$list = "$indent<h2>$oldmonth</h2>\n$indent<ul>\n".$list;
+
+# Construct the archive page
+$html = "";
+foreach $line (@template){
+	$str = $line;
+	$str =~ s/\%TITLE\%/$maintitle/g;
+	$str =~ s/\%CONTENT\%/\n$list/g;	
+	$html .= $str;
+}
+open(FILE,">","archive.html");
+print FILE "$html";
+close(FILE);
+
+# Construct the index page
+$content = "";
+$html = "";
+for($i = @posts-1 ; $i >= 0 ; $i--){ $content .= $posts[$i]; }
+foreach $line (@template){
+	$str = $line;
+	$str =~ s/\%TITLE\%/$maintitle/g;
+	$str =~ s/\%CONTENT\%/$content/g;
+	$html .= $str;
+}
+
+open(FILE,">","index.html");
+print FILE "$html";
+close(FILE);
 
 
 
@@ -210,6 +266,7 @@ sub getDate {
 		$date =~ s/\%d/$mday/g;
 		$date =~ s/\%Y/$year/g;
 		$date =~ s/\%M/$months[$mon-1]/g;
+		$date =~ s/\%B/$monthslong[$mon-1]/g;
 		$date =~ s/\%m/$mon/g;
 		$date =~ s/\%T/$longtime/g;
 		$date =~ s/\%t/$shorttime/g;
