@@ -115,7 +115,9 @@ for($i = 0; $i < @files; $i++){
 	close(FILE);
 
 	if(!$list){ $list = "$indent</ul>\n"; }
-	if($oldmonth && $month ne $oldmonth){ $list = "$indent<h2>$oldmonth</h2>\n$indent<ul>\n".$list; }
+	if($oldmonth && $month ne $oldmonth){
+		$list = "$indent</ul>\n$indent<h2>$oldmonth</h2>\n$indent<ul>\n".$list;
+	}
 	$list = "$indent\t<li><a href=\"$htmls[$i]\">$title</a></li>\n".$list;
 
 	$oldmonth = $month;
