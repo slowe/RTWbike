@@ -36,13 +36,17 @@ close(FILE);
 opendir(my $dh, $dir);
 @filenames = sort readdir( $dh );
 @files = ();
+@htmls = ();
 foreach $file (@filenames){
-	if($file =~ /[0-9]+\.md$/){ push(@files,$file); }
+	if($file =~ /[0-9]+\.md$/){
+		push(@files,$file);
+		$file =~ s/\.md/\.html/g;
+		push(@htmls,$file);
+	}
 }
 closedir $dh;
 
-
-for($i = 0; $i < (@files); $i++){
+for($i = 0; $i < @files; $i++){
 	$file = $files[$i];
 	print "$dir$file\n";
 	($title,$date,$post) = processPost($dir.$file);
@@ -62,22 +66,18 @@ for($i = 0; $i < (@files); $i++){
 
 	$post =~ s/([\n\r])/$1$indent$indent_entry/g;
 	$nav = "<nav>";
-	if($i > 0){
-		$nav .= "<a href=\"".$files[$i-1]."\" id=\"prev\">previous</a>";
-	}
-	if($i < @files - 1){
-		$nav .= "<a href=\"".$files[$i+1]."\" id=\"next\">next</a>";
-	}
-	$nav .= "</nav>";
+	if($i > 0){ $nav .= "<a href=\"".$htmls[$i-1]."\" class=\"prev\">previous</a>"; }
+	if($i < @files - 1){ $nav .= "<a href=\"".$htmls[$i+1]."\" class=\"next\">next</a>"; }
+	$nav .= "</nav>\n";
 	
 	foreach $line (@template_entry){
 		$str = $line;
+		$str =~ s/\%NAV\%/$nav/g;
 		$str =~ s/\%TITLE\%/$title/g;
 		$str =~ s/\%AUTHOR\%/$author/g;
 		$str =~ s/\%POSTDATE\%/<time pubdate=\"$date\" datetime=\"$date\">$d<\/time>/g;
 		$str =~ s/\%ENTRY\%/$post/g;
 		$str =~ s/\%[^\%]+\%//g;
-		$str =~ s/\%NAV\%/<nav><a href="" id="prev"><\/a><\/nav>/g;
 		$content .= $indent.$str;
 	}
 
@@ -89,8 +89,7 @@ for($i = 0; $i < (@files); $i++){
 		$html .= $str;
 	}
 	
-	$file =~ s/\.md/\.html/g;
-	open(FILE,">","$dir$file");
+	open(FILE,">","$dir$htmls[$i]");
 	print FILE "$html\n";
 	close(FILE);
 }
@@ -102,16 +101,17 @@ for($i = 0; $i < (@files); $i++){
 # Sub-routines
 
 sub processPost {
-	my $inbody,$i,$file,@lines,$line,$title,$date,$post;
-	my $file = $_[0];
+	local($inbody,$i,$file,@lines,$line,$title,$date,$post);
+	local $file = $_[0];
 
 	open(FILE,$file);
 	@lines = <FILE>;
 	close(FILE);
-	
+
 	$post = "";
 	$inbody = 0;
 	for($i = 0; $i < @lines ; $i++){
+
 
 		$lines[$i] =~ s/[\n\r]//g;
 		if($inbody == 2){ $post .= $lines[$i]."\n"; }
