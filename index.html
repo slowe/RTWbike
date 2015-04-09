@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+	<title>Around-the-world (RTW) on a bike</title>
+	<link rel="stylesheet" media="all" href="css/fonts.css" type="text/css" />
+	<link rel="icon" type="image/png" href="http://www.strudel.org.uk/RTWbike/icon.png" />
+	<style>
+	html {
+		min-height: 100%;
+	}
+	body {
+		font-family: 'Earthbound', "Helvetica Neue", Helvetica, sans-serif;
+		color: #202020;
+		background-color: #f6f6f6;
+		background-image:-moz-linear-gradient(top,#f6f6f6,#ffffff);
+		background-image:-webkit-gradient(linear,0 0,0 100%,from(#f6f6f6),to(#ffffff));
+		background-image:-webkit-linear-gradient(top,#f6f6f6,#ffffff);
+		background-image:-o-linear-gradient(top,#f6f6f6,#ffffff);
+		background-image:linear-gradient(to bottom,#f6f6f6,#ffffff);
+		background-repeat:repeat-x;
+		line-height: 1.5em;
+		height: 100%;
+	}
+	a { text-decoration: none; color: #396bad; color: #1FA5DE; color: #66AADA; }
+	a:hover, a:focus { text-decoration: underline; }
+	a:visited { color: #2255cc; color: #1FA5DE; color: #66AADA; }
+	.centre, .footnote {
+		margin: auto;
+		margin-top: 50px;
+		max-width: 640px;
+		text-align: center;
+	}
+	.centre img { display: inline-block; }
+	.footnote { margin-top: 96px; font-size: 0.8em; color: #606060; }
+	.footnote:hover { color: #202020; }
+	.logo { margin: auto; position: relative; width: 240px; height: 240px; max-height: auto; max-width: 70%; }
+	.logo img { position: absolute; left: 0px; top: 0px; max-width: 100%; }
+	.logo img.rotating {
+		-webkit-animation:spin 60s linear infinite;
+		-moz-animation:spin 60s linear infinite;
+		animation:spin 60s linear infinite;
+	}
+	@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+	@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+	@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+	</style>
+</head>
+<body>
+	<div class="centre">
+		<div class="logo">
+			<img src="globe.png" />
+			<img src="bike.png" class="rotating" />
+			<div class="clearall"></div>
+		</div>
+		<p>On Tuesday April 22, 1884 <a href="http://www.strudel.org.uk/blog/stevens/">Thomas Stevens</a> set off from San Francisco and cycled around the world on a Penny Farthing. On Tuesday April 22, 2014 I started to <a href="https://github.com/slowe/RTWbike/blob/master/lowe2014.geojson">recreate</a> his journey* across the US <a href="http://justgiving.com/RTWbike/">raising money for MSF</a> (Doctors Without Borders). I updated my progress via <a href="https://twitter.com/RTWbike">tweets</a>, <a href="blog/">blog</a>, <a href="https://www.flickr.com/photos/astronomyblog/">photos</a> and <a href="https://gist.github.com/arfon/11101663">an updating map</a> (thanks Arfon!). You can now see my <a href="elevation.html">elevation profile</a>.</p>
+		<h2>April 22 to July 31, 2014</h2>
+
+<script src="https://gist.github.com/arfon/11101663.js"></script>
+
+
+	</div>
+
+	<div class="footnote"><sup>*</sup> The <a href="https://github.com/slowe/RTWbike/blob/master/stevens1884.geojson">route and timings</a> but I'm not doing it on a Penny Farthing.</div>
+
+
+</body></html>
