@@ -18,6 +18,7 @@ for($i = 0; $i < @lines ; $i++){
 	$lines[$i] =~ s/[\n\r]//g;
 	if($lines[$i] =~ /^Title\:\t(.*)$/){ $maintitle = $1; }
 	if($lines[$i] =~ /^Link\:\t(.*)$/){ $link = $1; }
+	if($lines[$i] =~ /^Flickr\:\t(.*)$/){ $flickr = $1; }
 	if($lines[$i] =~ /^Recent\:\t(.*)$/){ $recent = $1; }
 	if($lines[$i] =~ /^Author\:\t(.*)$/){ $author = $1; }
 }
@@ -199,10 +200,13 @@ sub Markdown2HTML {
 	$md =~ s/\n\n/<\/p>\n\n<p>/g;
 
 	# Make Flickr links
-	#![landscape](https://www.flickr.com/photos/astronomyblog/13998729492/ "Milk Carton plants")
-	$md =~ s/\!\[landscape]\(https:\/\/www.flickr.com([^\s]+) \"([^\"]*)\"\)/<figure><iframe src="https:\/\/www.flickr.com$1\/player\/364b9680c6" height="333" width="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen><\/iframe><figcaption>$2<\/figcaption><\/figure>/g;
-	$md =~ s/\!\[]\(https:\/\/www.flickr.com([^\s]+) \"([^\"]*)\"\)/<figure><iframe src="https:\/\/www.flickr.com$1\/player\/364b9680c6" height="333" width="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen><\/iframe><figcaption>$2<\/figcaption><\/figure>/g;
-	$md =~ s/\!\[portrait]\(https:\/\/www.flickr.com([^\s]+) \"([^\"]*)\"\)/<figure><iframe src="https:\/\/www.flickr.com$1\/player\/364b9680c6" height="750" width="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen><\/iframe><figcaption>$2<\/figcaption><\/figure>/g;
+	$md =~ s/\!\[landscape]\(https:\/\/www.flickr.com([^\s]+) \"([^\"]*)\"\)/<figure><iframe src="https:\/\/www.flickr.com$1\/player\/" height="333" width="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen><\/iframe><figcaption>$2<\/figcaption><\/figure>/g;
+	$md =~ s/\!\[]\(https:\/\/www.flickr.com([^\s]+) \"([^\"]*)\"\)/<figure><iframe src="https:\/\/www.flickr.com$1\/player\/" height="333" width="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen><\/iframe><figcaption>$2<\/figcaption><\/figure>/g;
+	$md =~ s/\!\[portrait]\(https:\/\/www.flickr.com([^\s]+) \"([^\"]*)\"\)/<figure><iframe src="https:\/\/www.flickr.com$1\/player\/" height="750" width="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen><\/iframe><figcaption>$2<\/figcaption><\/figure>/g;
+	$md =~ s/\!\[panorama]\(https:\/\/www.flickr.com([^\s]+) \"([^\"]*)\"\)/<figure class="full"><iframe src="https:\/\/www.flickr.com$1\/player\/" height="500" width="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen><\/iframe><figcaption>$2<\/figcaption><\/figure>/g;
+
+	$md =~ s/\!\[panorama]\((https:\/\/farm[0-9]*.staticflickr.com\/[0-9]+\/)([^\_]+)([^\s]+) \"([^\"]*)\"\)/<figure class=\"full\"><a href=\"$flickr$2\"><img src=\"$1$2$3\" alt=\"panorama\" title=\"$4\" \/><\/a><figcaption>$4<\/figcaption><\/figure>/g;
+	$md =~ s/\!\[[^\]]*]\((https:\/\/farm[0-9]*.staticflickr.com\/[0-9]+\/)([^\_]+)([^\s]+) \"([^\"]*)\"\)/<figure><a href=\"$flickr$2\"><img src=\"$1$2$3\" alt=\"photo\" title=\"$4\" \/><\/a><figcaption>$4<\/figcaption><\/figure>/g;
 
 	# Make images
 	$md =~ s/\!\[([^\]]*)]\(([^\s]+) \"([^\"]*)\"\)/<figure><img src="$2" alt="$1" title="$3" \/><figcaption>$3<\/figcaption><\/figure>/g;
