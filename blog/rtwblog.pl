@@ -4,9 +4,6 @@
 
 $dir = "./";
 
-
-###################################
-
 # Read in config
 open(FILE,"README.md");
 @lines = <FILE>;
@@ -23,6 +20,7 @@ for($i = 0; $i < @lines ; $i++){
 	if($lines[$i] =~ /^Author\:\t(.*)$/){ $author = $1; }
 }
 
+###################################
 
 # Read in template file
 open(FILE,"template.html");
@@ -143,6 +141,9 @@ close(FILE);
 $content = "";
 $html = "";
 for($i = @posts-1 ; $i >= 0 ; $i--){ $content .= $posts[$i]; }
+
+$content .= "<nav><a href=\"archive.html\" class=\"next\">archive</a></nav>\n";
+
 foreach $line (@template){
 	$str = $line;
 	$str =~ s/\%TITLE\%/$maintitle/g;
