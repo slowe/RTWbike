@@ -99,7 +99,11 @@ figure {
 }
 figure img { width: 100%; }
 .entry p, nav, .posted, figure, figcaption, h2, ul { max-width: 500px; margin: 1em auto; }
+.posted { font-size: 0.8em; color: #aaaaaa; margin-top: 0em; }
+.posted:hover { color: #000000; }
 div.title, .about { max-width: 700px; }
+h2.title { margin-bottom: 0.25em; }
+.entry { margin-bottom: 3em; }
 figcaption {
 	font-size: 0.8em;
 	color: #606060;
