@@ -51,11 +51,12 @@ body.blog .centre {
 	height: 100px;
 }
 .header {
+	background-color: #3455bb;
 	background-image: url('https://farm3.staticflickr.com/2901/14635360860_0e29304cba_h.jpg');
 	background-size: cover;
 	border-bottom: 1px solid #e6e6e6;
 }
-.header .content { padding: 16px 0; width: 100%; display: inline-block; /*background: rgba(255,255,255,0.8);*/ }
+.header .content { padding: 32px 0; width: 100%; display: inline-block; /*background: rgba(255,255,255,0.8);*/ }
 .main {
 	padding: 16px 0 16px 0;
 }
@@ -115,7 +116,7 @@ div.title, div.about {
 	background: rgba(255,255,255,0);
 	/*text-shadow: 0 0 2px white, 0 0 1em white, 0 0 1em white, 0 0 2em white, 0 0 5em white,0 0 5em white,0 0 5em white,0 0 5em white,0 0 5em white,0 0 5em white,0 0 15em white,0 0 15em white,0 0 20em white,0 0 20em white,0 0 20em white,0 0 20em white,0 0 20em white;*/
 }
-p.about { margin: 0; padding: 8px; background: #ffffff; }
+p.about { margin: 0; padding: 16px; background: #ffffff; }
 .title { color: white; }
 
 h2.title { margin-bottom: 0.25em; }
