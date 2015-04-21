@@ -211,6 +211,8 @@ nav { height: 2.5em; }
 		max-width: 100%;
 		margin: auto;
 	}
+	.main { padding: 16px; }
+	div.about,div.title { margin: auto; max-width: 90%; }
 	.header .logo { width: 50px; height: 50px; }
 	iframe { max-width: 100%; }
 	#licence { clear: both; }
