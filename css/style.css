@@ -43,13 +43,20 @@ p.blog { text-align: justify; margin-bottom: 1em; }
 body.blog { background-color: #e6e6e6; background-image: none; }
 body.blog .centre {
 	margin-top: 0px;
+	display: block;
 }
 .header, .main { background-color: white; }
 .header .logo {
 	width: 100px;
 	height: 100px;
 }
-.main, .header {
+.header {
+	background-image: url('https://farm3.staticflickr.com/2901/14635360860_0e29304cba_h.jpg');
+	background-size: cover;
+	border-bottom: 1px solid #e6e6e6;
+}
+.header .content { padding: 16px 0; width: 100%; display: inline-block; /*background: rgba(255,255,255,0.8);*/ }
+.main {
 	padding: 16px 0 16px 0;
 }
 .main .content {
@@ -101,7 +108,16 @@ figure img { width: 100%; }
 .entry p, nav, .posted, figure, figcaption, h2, ul { max-width: 500px; margin: 1em auto; }
 .posted { font-size: 0.8em; color: #aaaaaa; margin-top: 0em; }
 .posted:hover { color: #000000; }
-div.title, .about { max-width: 700px; }
+div.title h1 { display: inline-block; }
+div.title, div.about {
+	display: block;
+	max-width: 700px;
+	background: rgba(255,255,255,0);
+	/*text-shadow: 0 0 2px white, 0 0 1em white, 0 0 1em white, 0 0 2em white, 0 0 5em white,0 0 5em white,0 0 5em white,0 0 5em white,0 0 5em white,0 0 5em white,0 0 15em white,0 0 15em white,0 0 20em white,0 0 20em white,0 0 20em white,0 0 20em white,0 0 20em white;*/
+}
+p.about { margin: 0; padding: 8px; background: #ffffff; }
+.title { color: white; }
+
 h2.title { margin-bottom: 0.25em; }
 .entry { margin-bottom: 3em; }
 figcaption {
@@ -190,10 +206,12 @@ nav { height: 2.5em; }
 
 
 @media only screen and (max-width: 700px){
+	.header { background-image: url('https://farm3.staticflickr.com/2901/14635360860_1fafa6da07_z.jpg'); }
 	.main .content, .header .content {
-		max-width: 95%;
+		max-width: 100%;
 		margin: auto;
 	}
+	.header .logo { width: 50px; height: 50px; }
 	iframe { max-width: 100%; }
 	#licence { clear: both; }
 }
