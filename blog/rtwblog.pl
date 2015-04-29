@@ -13,11 +13,11 @@ $inbody = 0;
 $recent = 4;
 for($i = 0; $i < @lines ; $i++){
 	$lines[$i] =~ s/[\n\r]//g;
-	if($lines[$i] =~ /^Title\:\t(.*)$/){ $maintitle = $1; }
-	if($lines[$i] =~ /^Link\:\t(.*)$/){ $link = $1; }
-	if($lines[$i] =~ /^Flickr\:\t(.*)$/){ $flickr = $1; }
-	if($lines[$i] =~ /^Recent\:\t(.*)$/){ $recent = $1; }
-	if($lines[$i] =~ /^Author\:\t(.*)$/){ $author = $1; }
+	if($lines[$i] =~ /^Title\:[\t\s]+(.*)$/){ $maintitle = $1; }
+	if($lines[$i] =~ /^Link\:[\t\s]+(.*)$/){ $link = $1; }
+	if($lines[$i] =~ /^Flickr\:[\t\s]+(.*)$/){ $flickr = $1; }
+	if($lines[$i] =~ /^Recent\:[\t\s]+(.*)$/){ $recent = $1; }
+	if($lines[$i] =~ /^Author\:[\t\s]+(.*)$/){ $author = $1; }
 }
 
 ###################################
