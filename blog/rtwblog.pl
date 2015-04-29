@@ -55,6 +55,7 @@ $list = "";
 for($i = 0; $i < @files; $i++){
 	$file = $files[$i];
 	print "$dir$file\n";
+	preProcessPost($dir.$file);
 	($title,$date,$post) = processPost($dir.$file);
 	$d = getDate(getJulianFromISO($date),"%D %d%e %M %Y (%t %Z)");
 	$month = getDate(getJulianFromISO($date),"%B %Y");
@@ -160,6 +161,47 @@ close(FILE);
 #################################
 # Sub-routines
 
+sub preProcessPost {
+	local($inbody,$i,$file,@lines,$line,$post,$url,$newurl,$update);
+	local $file = $_[0];
+
+	open(FILE,$file);
+	@lines = <FILE>;
+	close(FILE);
+
+	$post = "";
+	for($i = 0; $i < @lines ; $i++){
+		$lines[$i] =~ s/[\n\r]//g;
+		$post .= $lines[$i]."\n";
+	}
+
+	$update = 0;
+
+	# Turn basic short Flickr links into link to small jpg version
+	#$post =~ s/flic.kr\/p\/([^\.\s]+)/flic.kr\/p\/img\/$1\_m.jpg/g;
+	while($post =~ /(https?:\/\/flic.kr\/p\/)([^\.\s]+)/){
+		$url = $1.$2;
+		$newurl = $1."img/".$2."_m.jpg";
+		$newurl = effectiveURL($newurl);
+		$newurl =~ s/\_m.jpg/.jpg/;	# medium, 500 on longest side: https://www.flickr.com/services/api/misc.urls.html
+		$post =~ s/$url/$newurl/g;
+		$update++;
+	}
+
+	if($update > 0){
+		open(FILE,">",$file);
+		print FILE $post;
+		close(FILE);
+		print "Updating Flickr links in $file\n";
+	}
+	
+	return;
+}
+
+sub effectiveURL {
+	return `curl -Ls -o /dev/null -w %{url_effective} $_[0]`;
+}
+
 sub processPost {
 	local($inbody,$i,$file,@lines,$line,$title,$date,$post);
 	local $file = $_[0];
@@ -201,12 +243,6 @@ sub Markdown2HTML {
 
 	# Add paragraph splits
 	$md =~ s/\n\n/<\/p>\n\n<p>/g;
-
-	# Turn basic short Flickr links into link to small jpg version
-	while($md =~ /flic.kr\/p\/([0-9a-zA-Z]+)/){
-		$short = $1;
-		$md =~ s/flic.kr\/p\/img\/$short\_m.jpg//g;
-	}
 
 	# Make Flickr links
 	$md =~ s/\!\[landscape]\(https:\/\/www.flickr.com([^\s]+) \"([^\"]*)\"\)/<figure><iframe src="https:\/\/www.flickr.com$1\/player\/" height="333" width="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen><\/iframe><figcaption>$2<\/figcaption><\/figure>/g;
