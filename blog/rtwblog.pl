@@ -202,6 +202,12 @@ sub Markdown2HTML {
 	# Add paragraph splits
 	$md =~ s/\n\n/<\/p>\n\n<p>/g;
 
+	# Turn basic short Flickr links into link to small jpg version
+	while($md =~ /flic.kr\/p\/([0-9a-zA-Z]+)/){
+		$short = $1;
+		$md =~ s/flic.kr\/p\/img\/$short\_m.jpg//g;
+	}
+
 	# Make Flickr links
 	$md =~ s/\!\[landscape]\(https:\/\/www.flickr.com([^\s]+) \"([^\"]*)\"\)/<figure><iframe src="https:\/\/www.flickr.com$1\/player\/" height="333" width="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen><\/iframe><figcaption>$2<\/figcaption><\/figure>/g;
 	$md =~ s/\!\[]\(https:\/\/www.flickr.com([^\s]+) \"([^\"]*)\"\)/<figure><iframe src="https:\/\/www.flickr.com$1\/player\/" height="333" width="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen><\/iframe><figcaption>$2<\/figcaption><\/figure>/g;
@@ -600,4 +606,46 @@ sub roundInt {
 
 sub floorInt {
 	return int($_[0]);
+}
+
+sub encodebase58 {
+	my ($val,$symbols,$b);
+	$val = $_[0];
+	$symbols = "123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ";
+	$base = length($symbols);
+	$b = '';
+	while ($val) {
+		$b = substr($symbols, $val % $base, 1) . $b;
+		$val = int $val / $base;
+	}
+	return $b || '0';
+}
+
+sub decodeBase58 {
+
+	my $num = shift;
+	my @symbols = split(//,"123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ");
+	my $divisor = @symbols;
+
+	# strip leading 0's
+	$num =~ s/$0+//g;
+	
+	my ($y, $result) = (0, 0);
+	
+	foreach (split(//, reverse($num))) {
+		my $found = 0;
+	
+		foreach my $item (@symbols) {
+			if($item eq $_) {
+				last;
+			}
+			$found++;
+		}
+	
+		my $temp = $found * ($divisor ** $y);
+		$result += $temp;
+		$y++;
+	}
+
+	return $result;
 }
