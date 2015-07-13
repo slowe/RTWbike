@@ -20,12 +20,14 @@ if(!-d $dir){
 $dir =~ s/\/$//g;
 
 # Read the directory for .gpx files
+
 opendir($dh,$dir);
 @files = ();
-while(readdir $dh) {
-	print "$dir/$_\n";
-	if($_ =~ /^.*.gpx$/){
-		push(@files,$_);
+@filenames = sort readdir( $dh );
+foreach $file (@filenames){
+	print "$dir$file\n";
+	if($file =~ /^.*.gpx/){
+		push(@files,$file);
 	}
 }
 closedir($dh);
@@ -84,7 +86,7 @@ foreach $file (@files){
 
 $output .= "\n\t]\n}";
 
-open(FILE,">","lowe2014real.geojson");
+open(FILE,">","lowe2015real.geojson");
 print FILE $output;
 close(FILE);
 
