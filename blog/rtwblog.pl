@@ -245,16 +245,16 @@ sub Markdown2HTML {
 	$md =~ s/\n\n/<\/p>\n\n<p>/g;
 
 	# Make Flickr links
-	$md =~ s/\!\[landscape]\(https:\/\/www.flickr.com([^\s]+) \"([^\"]*)\"\)/<figure><iframe src="https:\/\/www.flickr.com$1\/player\/" height="333" width="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen><\/iframe><figcaption>$2<\/figcaption><\/figure>/g;
-	$md =~ s/\!\[]\(https:\/\/www.flickr.com([^\s]+) \"([^\"]*)\"\)/<figure><iframe src="https:\/\/www.flickr.com$1\/player\/" height="333" width="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen><\/iframe><figcaption>$2<\/figcaption><\/figure>/g;
-	$md =~ s/\!\[portrait]\(https:\/\/www.flickr.com([^\s]+) \"([^\"]*)\"\)/<figure><iframe src="https:\/\/www.flickr.com$1\/player\/" height="750" width="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen><\/iframe><figcaption>$2<\/figcaption><\/figure>/g;
-	$md =~ s/\!\[panorama]\(https:\/\/www.flickr.com([^\s]+) \"([^\"]*)\"\)/<figure class="full"><iframe src="https:\/\/www.flickr.com$1\/player\/" height="500" width="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen><\/iframe><figcaption>$2<\/figcaption><\/figure>/g;
+	$md =~ s/\!\[landscape]\(https:\/\/www.flickr.com([^\s]+) \"([^\"]*)\"\)/<figure class=\"landscape\"><iframe src="https:\/\/www.flickr.com$1\/player\/" height="333" width="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen><\/iframe><figcaption>$2<\/figcaption><\/figure>/g;
+	$md =~ s/\!\[]\(https:\/\/www.flickr.com([^\s]+) \"([^\"]*)\"\)/<figure class=\"landscape\"><iframe src="https:\/\/www.flickr.com$1\/player\/" height="333" width="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen><\/iframe><figcaption>$2<\/figcaption><\/figure>/g;
+	$md =~ s/\!\[portrait]\(https:\/\/www.flickr.com([^\s]+) \"([^\"]*)\"\)/<figure class=\"portrait\"><iframe src="https:\/\/www.flickr.com$1\/player\/" height="750" width="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen><\/iframe><figcaption>$2<\/figcaption><\/figure>/g;
+	$md =~ s/\!\[panorama]\(https:\/\/www.flickr.com([^\s]+) \"([^\"]*)\"\)/<figure class=\"full\"><iframe src="https:\/\/www.flickr.com$1\/player\/" height="500" width="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen><\/iframe><figcaption>$2<\/figcaption><\/figure>/g;
 
 	$md =~ s/\!\[panorama]\((https:\/\/farm[0-9]*.staticflickr.com\/[0-9]+\/)([^\_]+)([^\s]+) \"([^\"]*)\"\)/<figure class=\"full\"><a href=\"$flickr$2\"><img src=\"$1$2$3\" alt=\"panorama\" title=\"$4\" \/><\/a><figcaption>$4<\/figcaption><\/figure>/g;
-	$md =~ s/\!\[[^\]]*]\((https:\/\/farm[0-9]*.staticflickr.com\/[0-9]+\/)([^\_]+)([^\s]+) \"([^\"]*)\"\)/<figure><a href=\"$flickr$2\"><img src=\"$1$2$3\" alt=\"photo\" title=\"$4\" \/><\/a><figcaption>$4<\/figcaption><\/figure>/g;
+	$md =~ s/\!\[[^\]]*]\((https:\/\/farm[0-9]*.staticflickr.com\/[0-9]+\/)([^\_]+)([^\s]+) \"([^\"]*)\"\)/<figure class=\"landscape\"><a href=\"$flickr$2\"><img src=\"$1$2$3\" alt=\"photo\" title=\"$4\" \/><\/a><figcaption>$4<\/figcaption><\/figure>/g;
 
 	# Make images
-	$md =~ s/\!\[([^\]]*)]\(([^\s]+) \"([^\"]*)\"\)/<figure><img src="$2" alt="$1" title="$3" \/><figcaption>$3<\/figcaption><\/figure>/g;
+	$md =~ s/\!\[([^\]]*)]\(([^\s]+) \"([^\"]*)\"\)/<figure class=\"$1\"><img src="$2" alt="$1" title="$3" \/><figcaption>$3<\/figcaption><\/figure>/g;
 
 	# Make links
 	$md =~ s/\[([^\]]*)\]\(([^\)]*)\)/<a href="$2">$1<\/a>/g;
