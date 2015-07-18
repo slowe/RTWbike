@@ -238,6 +238,10 @@ sub Markdown2HTML {
 	$md =~ s/(^|\W)\*\*/$1<strong>/g;
 	$md =~ s/\*\*(\W|$)/<\/strong>$1/g;
 
+	# Convert strike through
+	$md =~ s/(^|\W)\~\~/$1<strike>/g;
+	$md =~ s/\~\~(\W|$)/<\/strike>$1/g;
+
 	# Make block quotes
 	$md =~ s/[\n\r][\>] ([^\n\r]*)[\n\r]/\n<blockquote>"$1"<\/blockquote>\n/g;
 
