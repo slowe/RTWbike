@@ -353,6 +353,7 @@ sub getJulianFromISO {
 	if($tz =~ /[A-Z]/){
 		$tz =~ s/^\+//g;
 		$tz_offset = getTimeZones("RFC-822",$tz);
+		print "$tz = $tz_offset\n";
 		$tz = "+".$tz;
 	}
 	$tz_offset =~ /^([\+\-])([0-9]{2})([0-9]{2})/;
