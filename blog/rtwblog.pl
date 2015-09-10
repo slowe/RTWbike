@@ -85,7 +85,7 @@ for($i = 0; $i < @files; $i++){
 		$str =~ s/\%AUTHOR\%/$author/g;
 		$str =~ s/\%POSTDATE\%/<time pubdate=\"$date\" datetime=\"$date\">$d<\/time>/g;
 		$str =~ s/\%ENTRY\%/$post/g;
-		$str =~ s/\%[^\%]+\%//g;
+		$str =~ s/\%[^\%\n]+\%//g;
 		$content .= $indent.$str;
 	}
 	$idx = "";
@@ -231,12 +231,12 @@ sub Markdown2HTML {
 	my $md = $_[0];
 
 	# Convert italic
-	$md =~ s/(^|\W)\_\_/$1<em>/g;
 	$md =~ s/\_\_(\W|$)/<\/em>$1/g;
+	$md =~ s/(^|\W)\_\_/$1<em>/g;
 
 	# Convert bold
-	$md =~ s/(^|\W)\*\*/$1<strong>/g;
 	$md =~ s/\*\*(\W|$)/<\/strong>$1/g;
+	$md =~ s/(^|\W)\*\*/$1<strong>/g;
 
 	# Convert strike through
 	$md =~ s/\~\~([^\~]{1,})\~\~/<strike>$1<\/strike>/g;
@@ -252,8 +252,9 @@ sub Markdown2HTML {
 	$md =~ s/\!\[]\(https:\/\/www.flickr.com([^\s]+) \"([^\"]*)\"\)/<figure class=\"landscape\"><iframe src="https:\/\/www.flickr.com$1\/player\/" height="333" width="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen><\/iframe><figcaption>$2<\/figcaption><\/figure>/g;
 	$md =~ s/\!\[portrait]\(https:\/\/www.flickr.com([^\s]+) \"([^\"]*)\"\)/<figure class=\"portrait\"><iframe src="https:\/\/www.flickr.com$1\/player\/" height="750" width="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen><\/iframe><figcaption>$2<\/figcaption><\/figure>/g;
 	$md =~ s/\!\[panorama]\(https:\/\/www.flickr.com([^\s]+) \"([^\"]*)\"\)/<figure class=\"full\"><iframe src="https:\/\/www.flickr.com$1\/player\/" height="500" width="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen><\/iframe><figcaption>$2<\/figcaption><\/figure>/g;
-
 	$md =~ s/\!\[panorama]\((https:\/\/farm[0-9]*.staticflickr.com\/[0-9]+\/)([^\_]+)([^\s]+) \"([^\"]*)\"\)/<figure class=\"full\"><a href=\"$flickr$2\"><img src=\"$1$2$3\" alt=\"panorama\" title=\"$4\" \/><\/a><figcaption>$4<\/figcaption><\/figure>/g;
+	# Deal with panorami that aren't flickr links
+	$md =~ s/\!\[panorama]\((https:\/\/[^\s]+) \"([^\"]*)\"\)/<figure class=\"full\"><a href=\"$1\"><img src=\"$1\" alt=\"panorama\" title=\"$2\" \/><\/a><figcaption>$2<\/figcaption><\/figure>/g;
 	$md =~ s/\!\[[^\]]*]\((https:\/\/farm[0-9]*.staticflickr.com\/[0-9]+\/)([^\_]+)([^\s]+) \"([^\"]*)\"\)/<figure class=\"landscape\"><a href=\"$flickr$2\"><img src=\"$1$2$3\" alt=\"photo\" title=\"$4\" \/><\/a><figcaption>$4<\/figcaption><\/figure>/g;
 
 	# Make images
