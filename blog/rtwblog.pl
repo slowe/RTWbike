@@ -56,7 +56,11 @@ for($i = 0; $i < @files; $i++){
 	$file = $files[$i];
 	print "$dir$file\n";
 	preProcessPost($dir.$file);
-	($title,$date,$post) = processPost($dir.$file);
+	$title = "";
+	$date = "";
+	$post = "";
+	$distance = "";
+	($title,$date,$post,$distance) = processPost($dir.$file);
 	$d = getDate(getJulianFromISO($date),"%D %d%e %M %Y (%t %Z)");
 	$month = getDate(getJulianFromISO($date),"%B %Y");
 
@@ -83,6 +87,7 @@ for($i = 0; $i < @files; $i++){
 		$str =~ s/\%NAV\%/$nav/g;
 		$str =~ s/\%TITLE\%/$title/g;
 		$str =~ s/\%AUTHOR\%/$author/g;
+		$str =~ s/\%DISTANCE\%/$distance/g;
 		$str =~ s/\%POSTDATE\%/<time pubdate=\"$date\" datetime=\"$date\">$d<\/time>/g;
 		$str =~ s/\%ENTRY\%/$post/g;
 		$str =~ s/\%[^\%\n]+\%//g;
@@ -203,7 +208,7 @@ sub effectiveURL {
 }
 
 sub processPost {
-	local($inbody,$i,$file,@lines,$line,$title,$date,$post);
+	local($inbody,$i,$file,@lines,$line,$title,$date,$post,$distance);
 	local $file = $_[0];
 
 	open(FILE,$file);
@@ -211,6 +216,7 @@ sub processPost {
 	close(FILE);
 
 	$post = "";
+	$distance = "";
 	$inbody = 0;
 	for($i = 0; $i < @lines ; $i++){
 
@@ -219,11 +225,13 @@ sub processPost {
 		if($inbody == 2){ $post .= $lines[$i]."\n"; }
 		if($lines[$i] =~ /^Date\:\t(.*)$/){ $date = $1; }
 		if($lines[$i] =~ /^Title\:\t(.*)$/){ $title = $1; }
+		if($lines[$i] =~ /^Distance\:\t(.*)$/){ $distance = $1; }
 		if($lines[$i] =~ /^\-\-\-/){ $inbody++; }
 
 	}
+	if($distance =~ /^([0-9\.]*) miles/){ $distance = "<p class=\"entry_footer\">Distance cycled today: ".sprintf("%.1f",$1*1.60965)." km ($1 miles)</p>"; }
 	$post = Markdown2HTML($post);
-	return ($title,$date,$post);
+	return ($title,$date,$post,$distance);
 }
 
 # My own routine to convert Markdown to HTML
