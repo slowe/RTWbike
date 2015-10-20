@@ -11,6 +11,7 @@ close(FILE);
 
 $inbody = 0;
 $recent = 4;
+$totald = 0;
 for($i = 0; $i < @lines ; $i++){
 	$lines[$i] =~ s/[\n\r]//g;
 	if($lines[$i] =~ /^Title\:[\t\s]+(.*)$/){ $maintitle = $1; }
@@ -51,6 +52,7 @@ $oldmonth = "";
 
 $list = "";
 @posts = ();
+$totald = 0;
 
 for($i = 0; $i < @files; $i++){
 	$file = $files[$i];
@@ -60,9 +62,10 @@ for($i = 0; $i < @files; $i++){
 	$date = "";
 	$post = "";
 	$distance = "";
-	($title,$date,$post,$distance) = processPost($dir.$file);
+	($title,$date,$post,$dist) = processPost($dir.$file);
 	$d = getDate(getJulianFromISO($date),"%D %d%e %M %Y (%t %Z)");
 	$month = getDate(getJulianFromISO($date),"%B %Y");
+	$totald += $dist;
 
 	$html = "";
 	$content = "";
@@ -82,6 +85,8 @@ for($i = 0; $i < @files; $i++){
 	if($i < @files - 1){ $nav .= "<a href=\"".$htmls[$i+1]."\" class=\"next\">next</a>"; }
 	$nav .= "</nav>\n";
 	
+	$distance = ($totald > 0 ? processDistance($dist,$totald) : "");
+
 	foreach $line (@template_entry){
 		$str = $line;
 		$str =~ s/\%NAV\%/$nav/g;
@@ -208,7 +213,7 @@ sub effectiveURL {
 }
 
 sub processPost {
-	local($inbody,$i,$file,@lines,$line,$title,$date,$post,$distance);
+	local($inbody,$i,$file,@lines,$line,$title,$date,$post,$distance,$dist);
 	local $file = $_[0];
 
 	open(FILE,$file);
@@ -229,9 +234,25 @@ sub processPost {
 		if($lines[$i] =~ /^\-\-\-/){ $inbody++; }
 
 	}
-	if($distance =~ /^([0-9\.]*) miles/){ $distance = "<p class=\"entry_footer\">Distance cycled today: ".sprintf("%.1f",$1*1.60965)." km ($1 miles)</p>"; }
+	if($distance =~ /^([0-9\.]*) miles/){
+		$dist = $1*1.60965;
+#		$distance = "<p class=\"entry_footer\">Distance cycled today: ".sprintf("%.1f",$1*1.60965)." km ($1 miles)</p>";
+	}elsif($distance =~ /^([0-9\.]*) km/){
+		$dist = $1;
+#		$distance = "<p class=\"entry_footer\">Distance cycled today: $1 km (".sprintf("%.1f",$1/1.60965)." miles)</p>";
+	}
 	$post = Markdown2HTML($post);
-	return ($title,$date,$post,$distance);
+	return ($title,$date,$post,$dist);
+}
+
+# Input distance in km
+# - daily (km)
+# - total (km)
+sub processDistance {
+	local $daily = $_[0];
+	local $total = $_[1];
+
+	return "<p class=\"entry_footer\">".($daily > 0 ? "Distance cycled today: <strong>".sprintf("%.1f",$daily)." km</strong> (".sprintf("%.1f",$daily/1.60965)." miles)":"").($total > 0 && $daily > 0 ? "<br />":"").($total > 0 ? "Total distance cycled from New Brighton: <strong>".sprintf("%.1f",$total)." km</strong> (".sprintf("%.1f",$total/1.60965)." miles)":"")."</p>";
 }
 
 # My own routine to convert Markdown to HTML
