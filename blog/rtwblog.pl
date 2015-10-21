@@ -273,6 +273,10 @@ sub Markdown2HTML {
 	# Make block quotes
 	$md =~ s/[\n\r][\>] ([^\n\r]*)[\n\r]/\n<blockquote>"$1"<\/blockquote>\n/g;
 
+	# Add headings
+	$md =~ s/([\n\r])\=\=([^\=][^\n\r]*)/$1<h2>$2<\/h2>/g;
+	$md =~ s/([\n\r])\=\=\=([^\=][^\n\r]*)/$1<h3>$2<\/h3>/g;
+
 	# Add paragraph splits
 	$md =~ s/\n\n/<\/p>\n\n<p>/g;
 
