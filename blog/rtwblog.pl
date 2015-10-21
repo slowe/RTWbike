@@ -153,7 +153,8 @@ $content = "";
 $html = "";
 for($i = @posts-1 ; $i >= 0 ; $i--){ $content .= $posts[$i]; }
 
-$content .= "<nav><a href=\"archive.html\" class=\"next\">archive</a></nav>\n";
+$n = @htmls-$recent-1;
+$content .= "<nav><a href=\"$htmls[$n]\" class=\"prev\">previous</a></nav>\n";
 
 foreach $line (@template){
 	$str = $line;
