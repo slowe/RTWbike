@@ -62,9 +62,11 @@ for($i = 0; $i < @files; $i++){
 	$date = "";
 	$post = "";
 	$distance = "";
-	($title,$date,$post,$dist) = processPost($dir.$file);
+	$route = "";
+	($title,$date,$post,$dist,$route) = processPost($dir.$file);
 	$d = getDate(getJulianFromISO($date),"%D %d%e %M %Y (%t %Z)");
 	$month = getDate(getJulianFromISO($date),"%B %Y");
+	$mapid = getDate(getJulianFromISO($date),"%Y-%m-%d");
 	$totald += $dist;
 
 	$html = "";
@@ -95,6 +97,11 @@ for($i = 0; $i < @files; $i++){
 		$str =~ s/\%DISTANCE\%/$distance/g;
 		$str =~ s/\%POSTDATE\%/<time pubdate=\"$date\" datetime=\"$date\">$d<\/time>/g;
 		$str =~ s/\%ENTRY\%/$post/g;
+		if($route){
+			$str =~ s/\%MAP\%/<div id=\"$mapid\" class=\"map\" data-file=\"$route\"><\/div>/g;
+		}else{
+			$str =~ s/\%MAP\%//g;
+		}
 		$str =~ s/\%[^\%\n]+\%//g;
 		$content .= $indent.$str;
 	}
@@ -214,7 +221,7 @@ sub effectiveURL {
 }
 
 sub processPost {
-	local($inbody,$i,$file,@lines,$line,$title,$date,$post,$distance,$dist);
+	local($inbody,$i,$file,@lines,$line,$title,$date,$post,$distance,$dist,$route);
 	local $file = $_[0];
 
 	open(FILE,$file);
@@ -232,6 +239,7 @@ sub processPost {
 		if($lines[$i] =~ /^Date\:\t(.*)$/){ $date = $1; }
 		if($lines[$i] =~ /^Title\:\t(.*)$/){ $title = $1; }
 		if($lines[$i] =~ /^Distance\:\t(.*)$/){ $distance = $1; }
+		if($lines[$i] =~ /^Route\:\t(.*)$/){ $route = $1; }
 		if($lines[$i] =~ /^\-\-\-/){ $inbody++; }
 
 	}
@@ -243,7 +251,7 @@ sub processPost {
 #		$distance = "<p class=\"entry_footer\">Distance cycled today: $1 km (".sprintf("%.1f",$1/1.60965)." miles)</p>";
 	}
 	$post = Markdown2HTML($post);
-	return ($title,$date,$post,$dist);
+	return ($title,$date,$post,$dist,$route);
 }
 
 # Input distance in km
