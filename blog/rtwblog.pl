@@ -53,14 +53,14 @@ $oldmonth = "";
 $list = "";
 @posts = ();
 $totald = 0;
-$from = "San Francisco Bay";
+$from = "San Francisco";
+$metric = 0;
 
 for($i = 0; $i < @files; $i++){
 	$file = $files[$i];
 	print "$dir$file\n";
 	if($file =~ /2015001/){
-		$totald = 0;
-		$from = "New Brighton";
+		$metric = 1;
 	}
 	preProcessPost($dir.$file);
 	$title = "";
@@ -92,7 +92,7 @@ for($i = 0; $i < @files; $i++){
 	if($i < @files - 1){ $nav .= "<a href=\"".$htmls[$i+1]."\" class=\"next\">next</a>"; }
 	$nav .= "</nav>\n";
 	
-	$distance = ($totald > 0 ? processDistance($dist,$totald,$from) : "");
+	$distance = ($totald > 0 ? processDistance($dist,$totald,$from,$metric) : "");
 
 	foreach $line (@template_entry){
 		$str = $line;
@@ -266,6 +266,7 @@ sub processDistance {
 	local $daily = $_[0];
 	local $total = $_[1];
 	local $from = $_[2];
+	local $metric = $_[3];
 	local($d,$t,$km,$ml);
 	local $out = "";
 	
@@ -273,13 +274,13 @@ sub processDistance {
 	if($daily > 0){
 		$km = sprintf("%.1f",$daily)." km";
 		$ml = sprintf("%.1f",$daily/1.60965)." miles";
-		$out .= "Distance cycled today: ".($from =~ /San Fran/ ? "<strong>$ml</strong> ($km)" : "<strong>$km</strong> ($ml)");
+		$out .= "Distance cycled today: ".($metric==0 ? "<strong>$ml</strong> ($km)" : "<strong>$km</strong> ($ml)");
 	}
 	$out .= ($total > 0 && $daily > 0 ? "<br />":"");
 	if($total > 0){
 		$km = sprintf("%.1f",$total)." km";
 		$ml = sprintf("%.1f",$total/1.60965)." miles";
-		$out .= "Total cycled from $from: ".($from =~ /San Fran/ ? "<strong>$ml</strong> ($km)" : "<strong>$km</strong> ($ml)");
+		$out .= "Distance cycled from $from: ".($metric==0 ? "<strong>$ml</strong> ($km)" : "<strong>$km</strong> ($ml)");
 	}
 	$out .= "</p>";
 	return $out;
