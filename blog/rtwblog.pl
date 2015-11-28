@@ -53,10 +53,15 @@ $oldmonth = "";
 $list = "";
 @posts = ();
 $totald = 0;
+$from = "San Francisco Bay";
 
 for($i = 0; $i < @files; $i++){
 	$file = $files[$i];
 	print "$dir$file\n";
+	if($file =~ /2015001/){
+		$totald = 0;
+		$from = "New Brighton";
+	}
 	preProcessPost($dir.$file);
 	$title = "";
 	$date = "";
@@ -87,7 +92,7 @@ for($i = 0; $i < @files; $i++){
 	if($i < @files - 1){ $nav .= "<a href=\"".$htmls[$i+1]."\" class=\"next\">next</a>"; }
 	$nav .= "</nav>\n";
 	
-	$distance = ($totald > 0 ? processDistance($dist,$totald) : "");
+	$distance = ($totald > 0 ? processDistance($dist,$totald,$from) : "");
 
 	foreach $line (@template_entry){
 		$str = $line;
@@ -260,8 +265,24 @@ sub processPost {
 sub processDistance {
 	local $daily = $_[0];
 	local $total = $_[1];
-
-	return "<p class=\"entry_footer\">".($daily > 0 ? "Distance cycled today: <strong>".sprintf("%.1f",$daily)." km</strong> (".sprintf("%.1f",$daily/1.60965)." miles)":"").($total > 0 && $daily > 0 ? "<br />":"").($total > 0 ? "Total distance cycled from New Brighton: <strong>".sprintf("%.1f",$total)." km</strong> (".sprintf("%.1f",$total/1.60965)." miles)":"")."</p>";
+	local $from = $_[2];
+	local($d,$t,$km,$ml);
+	local $out = "";
+	
+	$out .= "<p class=\"entry_footer\">";
+	if($daily > 0){
+		$km = sprintf("%.1f",$daily)." km";
+		$ml = sprintf("%.1f",$daily/1.60965)." miles";
+		$out .= "Distance cycled today: ".($from =~ /San Fran/ ? "<strong>$ml</strong> ($km)" : "<strong>$km</strong> ($ml)");
+	}
+	$out .= ($total > 0 && $daily > 0 ? "<br />":"");
+	if($total > 0){
+		$km = sprintf("%.1f",$total)." km";
+		$ml = sprintf("%.1f",$total/1.60965)." miles";
+		$out .= "Total cycled from $from: ".($from =~ /San Fran/ ? "<strong>$ml</strong> ($km)" : "<strong>$km</strong> ($ml)");
+	}
+	$out .= "</p>";
+	return $out;
 }
 
 # My own routine to convert Markdown to HTML

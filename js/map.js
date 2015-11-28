@@ -54,7 +54,15 @@ r(function(){
 			[north, east]
 		]);
 		L.control.scale().addTo(map);
-
+		/*
+		var mapLink = '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+		var ocmlink = '<a href="http://thunderforest.com/">Thunderforest</a>';
+		L.tileLayer(
+			'http://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png', {
+			attribution: '&copy; '+mapLink+' Contributors & '+ocmlink,
+			maxZoom: 18,
+		}).addTo(map);*/
+		
 		// add an OpenStreetMap tile layer
 		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 			attribution: 'Map tiles/data by <a href="http://openstreetmap.org">OpenStreetMap</a> (ODbL)',
