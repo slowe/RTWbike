@@ -55,6 +55,10 @@ $list = "";
 $totald = 0;
 $from = "San Francisco";
 $metric = 0;
+$punctures = 0;
+$maxbin = 0;
+$distsincepunc = 0;
+%distances;
 
 for($i = 0; $i < @files; $i++){
 	$file = $files[$i];
@@ -68,11 +72,25 @@ for($i = 0; $i < @files; $i++){
 	$post = "";
 	$distance = "";
 	$route = "";
-	($title,$date,$post,$dist,$route) = processPost($dir.$file);
+	$punc = 0;
+	$puncture = "";
+	($title,$date,$post,$dist,$route,$punc) = processPost($dir.$file);
 	$d = getDate(getJulianFromISO($date),"%D %d%e %M %Y (%t %Z)");
 	$month = getDate(getJulianFromISO($date),"%B %Y");
 	$mapid = getDate(getJulianFromISO($date),"%Y-%m-%d");
 	$totald += $dist;
+
+	$dbin = int(($dist/5))*5;
+	if($dbin > $maxbin){ $maxbin = $dbin; }
+	if($distances{$dbin}){ $distances{$dbin}++; }
+	else{ $distances{$dbin} = 1; }
+
+	#if($punc > 0){ $distsincepunc = 0; }
+	#$distsincepunc += $dist;
+	#$punctures += $punc;
+	#if($punctures > 0){
+	#	$puncture = "<p class=\"entry_footer\">Punctures since $from: <strong>$punctures</strong></p>";
+	#}
 
 	$html = "";
 	$content = "";
@@ -100,6 +118,7 @@ for($i = 0; $i < @files; $i++){
 		$str =~ s/\%TITLE\%/$title/g;
 		$str =~ s/\%AUTHOR\%/$author/g;
 		$str =~ s/\%DISTANCE\%/$distance/g;
+		$str =~ s/\%PUNCTURES\%/$puncture/g;
 		$str =~ s/\%POSTDATE\%/<time pubdate=\"$date\" datetime=\"$date\">$d<\/time>/g;
 		$str =~ s/\%ENTRY\%/$post/g;
 		if($route){
@@ -180,6 +199,30 @@ print FILE "$html";
 close(FILE);
 
 
+# Construct the archive page
+$title = "Distance cycled per day";
+$output = "<div class=\"entry\"><h2>$title</h2><p>I was often asked &quot;How far do you cycle a day?&quot;. There is no easy answer as my days varied a lot but 50-70 miles (80-115 km) gives a bit of an idea. To see the variation, here's a histogram showing the distribution of distances cycled in a day for the entire trip from San Francisco to Istanbul.</p>";
+$output .= "<table style=\"padding: 0px;text-align: center;font-size:0.6em;border: 0px;margin: auto;\"><tr style=\"vertical-align: bottom;\">";
+for($i = 5; $i < $maxbin; $i += 5){
+	$output .= "<td><span style=\"display: block;line-height:1.2em;\">$distances{$i}</span><div style=\"display:block;margin:0px;padding:0px;height:".($distances{$i}*16)."px;width:15px;background-color:#3455bb;\"></div></td>\n";
+}
+$output .= "</tr><tr>";
+for($i = 5; $i < $maxbin; $i += 5){
+	$output .= "<td style=\"line-height:1.5em;\">".($i%10==0 ? $i : "")."</td>";
+}
+$output .= "</tr></table><p style=\"text-align: center;\">Distance cycled in a day (km)</p></div>";
+$html = "";
+foreach $line (@template){
+	$str = $line;
+	$str =~ s/\%TITLE\%/$title/g;
+	$str =~ s/\%CONTENT\%/\n$output/g;
+	$html .= $str;
+}
+open(FILE,">","distances.html");
+print FILE "$html";
+close(FILE);
+
+
 
 #################################
 # Sub-routines
@@ -226,7 +269,7 @@ sub effectiveURL {
 }
 
 sub processPost {
-	local($inbody,$i,$file,@lines,$line,$title,$date,$post,$distance,$dist,$route);
+	local($inbody,$i,$file,@lines,$line,$title,$date,$post,$distance,$dist,$route,$punc);
 	local $file = $_[0];
 
 	open(FILE,$file);
@@ -236,6 +279,7 @@ sub processPost {
 	$post = "";
 	$distance = "";
 	$inbody = 0;
+	$punc = 0;
 	for($i = 0; $i < @lines ; $i++){
 
 
@@ -245,6 +289,7 @@ sub processPost {
 		if($lines[$i] =~ /^Title\:\t(.*)$/){ $title = $1; }
 		if($lines[$i] =~ /^Distance\:\t(.*)$/){ $distance = $1; }
 		if($lines[$i] =~ /^Route\:\t(.*)$/){ $route = $1; }
+		if($lines[$i] =~ /^Punctures\:\t(.*)$/){ $punc = $1; }
 		if($lines[$i] =~ /^\-\-\-/){ $inbody++; }
 
 	}
@@ -256,7 +301,7 @@ sub processPost {
 #		$distance = "<p class=\"entry_footer\">Distance cycled today: $1 km (".sprintf("%.1f",$1/1.60965)." miles)</p>";
 	}
 	$post = Markdown2HTML($post);
-	return ($title,$date,$post,$dist,$route);
+	return ($title,$date,$post,$dist,$route,$punc);
 }
 
 # Input distance in km
