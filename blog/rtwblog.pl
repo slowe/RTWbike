@@ -12,6 +12,9 @@ close(FILE);
 $inbody = 0;
 $recent = 4;
 $totald = 0;
+$maintitle = "";
+$about = "";
+$class = "blog";
 for($i = 0; $i < @lines ; $i++){
 	$lines[$i] =~ s/[\n\r]//g;
 	if($lines[$i] =~ /^Title\:[\t\s]+(.*)$/){ $maintitle = $1; }
@@ -19,6 +22,7 @@ for($i = 0; $i < @lines ; $i++){
 	if($lines[$i] =~ /^Flickr\:[\t\s]+(.*)$/){ $flickr = $1; }
 	if($lines[$i] =~ /^Recent\:[\t\s]+(.*)$/){ $recent = $1; }
 	if($lines[$i] =~ /^Author\:[\t\s]+(.*)$/){ $author = $1; }
+	if($lines[$i] =~ /^About\:[\t\s]+(.*)$/){ $about = $1; }
 }
 
 ###################################
@@ -115,7 +119,9 @@ for($i = 0; $i < @files; $i++){
 	foreach $line (@template_entry){
 		$str = $line;
 		$str =~ s/\%NAV\%/$nav/g;
+#		$str =~ s/\%MAINTITLE\%/$maintitle/g;
 		$str =~ s/\%TITLE\%/$title/g;
+		$str =~ s/\%ABOUT\%/$about/g;
 		$str =~ s/\%AUTHOR\%/$author/g;
 		$str =~ s/\%DISTANCE\%/$distance/g;
 		$str =~ s/\%PUNCTURES\%/$puncture/g;
@@ -133,7 +139,9 @@ for($i = 0; $i < @files; $i++){
 	foreach $line (@template_entry){
 		$str = $line;
 		$str =~ s/\%NAV\%//g;
+#		$str =~ s/\%MAINTITLE\%/$maintitle/g;
 		$str =~ s/\%TITLE\%/<a href="$htmls[$i]">$title<\/a>/g;
+#		$str =~ s/\%ABOUT\%/$about/g;
 		$str =~ s/\%AUTHOR\%/$author/g;
 		$str =~ s/\%POSTDATE\%/<time pubdate=\"$date\" datetime=\"$date\">$d<\/time>/g;
 		$str =~ s/\%ENTRY\%/$post/g;
@@ -144,7 +152,10 @@ for($i = 0; $i < @files; $i++){
 
 	foreach $line (@template){
 		$str = $line;
+		$str =~ s/\%MAINTITLE\%/$maintitle/g;
 		$str =~ s/\%TITLE\%/$title/g;
+		$str =~ s/\%ABOUT\%/$about/g;
+		$str =~ s/\%CLASS\%/$class/g;
 		$str =~ s/\%CONTENT\%/$content/g;
 		
 		$html .= $str;
@@ -171,7 +182,10 @@ $list = "$indent<h2>$oldmonth</h2>\n$indent<ul>\n".$list;
 $html = "";
 foreach $line (@template){
 	$str = $line;
+	$str =~ s/\%MAINTITLE\%/$maintitle/g;
 	$str =~ s/\%TITLE\%/$maintitle/g;
+	$str =~ s/\%ABOUT\%/$about/g;
+	$str =~ s/\%CLASS\%/$class/g;
 	$str =~ s/\%CONTENT\%/\n$list/g;	
 	$html .= $str;
 }
@@ -189,7 +203,10 @@ $content .= "<nav><a href=\"$htmls[$n]\" class=\"prev\">previous</a></nav>\n";
 
 foreach $line (@template){
 	$str = $line;
+	$str =~ s/\%MAINTITLE\%/$maintitle/g;
 	$str =~ s/\%TITLE\%/$maintitle/g;
+	$str =~ s/\%ABOUT\%/$about/g;
+	$str =~ s/\%CLASS\%/$class/g;
 	$str =~ s/\%CONTENT\%/$content/g;
 	$html .= $str;
 }
@@ -214,7 +231,10 @@ $output .= "</tr></table><p style=\"text-align: center;\">Distance cycled in a d
 $html = "";
 foreach $line (@template){
 	$str = $line;
+	$str =~ s/\%MAINTITLE\%/$maintitle/g;
 	$str =~ s/\%TITLE\%/$title/g;
+	$str =~ s/\%ABOUT\%/$about/g;
+	$str =~ s/\%CLASS\%/$class/g;
 	$str =~ s/\%CONTENT\%/\n$output/g;
 	$html .= $str;
 }
@@ -282,14 +302,23 @@ sub processPost {
 	$punc = 0;
 	for($i = 0; $i < @lines ; $i++){
 
-
 		$lines[$i] =~ s/[\n\r]//g;
 		if($inbody == 2){ $post .= $lines[$i]."\n"; }
 		if($lines[$i] =~ /^Date\:\t(.*)$/){ $date = $1; }
 		if($lines[$i] =~ /^Title\:\t(.*)$/){ $title = $1; }
+		if($lines[$i] =~ /^Class\:\t(.*)$/){ $class = "blog ".$1; }
+		if($lines[$i] =~ /^Blog Title\:\t(.*)$/){ $maintitle = $1; }
+		if($lines[$i] =~ /^About\:\t(.*)$/){ $about = $1; }
 		if($lines[$i] =~ /^Distance\:\t(.*)$/){ $distance = $1; }
 		if($lines[$i] =~ /^Route\:\t(.*)$/){ $route = $1; }
 		if($lines[$i] =~ /^Punctures\:\t(.*)$/){ $punc = $1; }
+		if($lines[$i] =~ /^Reset:\t(.*)$/){
+			$from = $1;
+			$distsincepunc = 0;
+#			$distances = {};
+			$totald = 0;
+#			$maxbin = 0;
+		}
 		if($lines[$i] =~ /^\-\-\-/){ $inbody++; }
 
 	}

@@ -53,9 +53,12 @@ body.blog .centre {
 }
 .header {
 	background-color: #3455bb;
-	background-image: url('https://farm3.staticflickr.com/2901/14635360860_0e29304cba_h.jpg');
+	background-image: url('../blog/images/2014.jpg');
 	background-size: cover;
 	border-bottom: 1px solid #e6e6e6;
+}
+.coast .header {
+	background-image: url('../blog/images/2017.jpg');
 }
 .header .content { padding: 32px 0; width: 100%; display: inline-block; /*background: rgba(255,255,255,0.8);*/ }
 .main {
