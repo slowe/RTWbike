@@ -27,7 +27,7 @@ opendir($dh,$dir);
 @filenames = sort readdir( $dh );
 print @filenames;
 foreach $file (@filenames){
-	if($file =~ /\.gpx$/ && -s $dir.$file > 0){
+	if($file =~ /route[0-9]+\.gpx$/i && -s $dir.$file > 0){
 		if($file =~ /([0-9]+)/){
 			if($1 < $mn){ $mn = $1; }
 			if($1 > $mx){ $mx = $1; }
@@ -46,7 +46,7 @@ $f = 0;
 # Process each track
 for($n = $mn ; $n <= $mx; $n++){
 
-	$file = "route".$n.".gpx";
+	$file = "Route".$n.".gpx";
 
 	open(GPX,"$dir/$file");
 	@lines = <GPX>;
@@ -89,7 +89,7 @@ for($n = $mn ; $n <= $mx; $n++){
 			if($i > 0){
 				$output .= ",\n";
 			}
-			$output .= "\t\t\t\t\t[".sprintf("%.8f",$lons[$i]).",".sprintf("%.8f",$lats[$i])."]";
+			$output .= "\t\t\t\t\t[".sprintf("%.6f",$lons[$i]).",".sprintf("%.6f",$lats[$i])."]";
 		}
 	
 		$f++;
@@ -100,7 +100,7 @@ for($n = $mn ; $n <= $mx; $n++){
 
 $output .= "\n\t]\n}";
 
-open(FILE,">","lowe2015.geojson");
+open(FILE,">","lowe2017.geojson");
 print FILE $output;
 close(FILE);
 
