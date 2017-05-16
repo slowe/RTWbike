@@ -89,12 +89,12 @@ for($i = 0; $i < @files; $i++){
 	if($distances{$dbin}){ $distances{$dbin}++; }
 	else{ $distances{$dbin} = 1; }
 
-	#if($punc > 0){ $distsincepunc = 0; }
-	#$distsincepunc += $dist;
-	#$punctures += $punc;
-	#if($punctures > 0){
-	#	$puncture = "<p class=\"entry_footer\">Punctures since $from: <strong>$punctures</strong></p>";
-	#}
+	if($punc > 0){ $distsincepunc = 0; }
+	$distsincepunc += $dist;
+	$punctures += $punc;
+	if($punctures > 0){
+		$puncture = "<p>Punctures since $from: <strong>$punctures</strong></p>";
+	}
 
 	$html = "";
 	$content = "";
@@ -315,6 +315,7 @@ sub processPost {
 		if($lines[$i] =~ /^Reset:\t(.*)$/){
 			$from = $1;
 			$distsincepunc = 0;
+			$punctures = 0;
 #			$distances = {};
 			$totald = 0;
 #			$maxbin = 0;
@@ -344,7 +345,7 @@ sub processDistance {
 	local($d,$t,$km,$ml);
 	local $out = "";
 	
-	$out .= "<p class=\"entry_footer\">";
+	$out .= "<p>";
 	if($daily > 0){
 		$km = sprintf("%.1f",$daily)." km";
 		$ml = sprintf("%.1f",$daily/1.60965)." miles";
