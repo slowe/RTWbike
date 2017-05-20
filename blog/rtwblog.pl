@@ -382,6 +382,8 @@ sub Markdown2HTML {
 	# Add headings
 	$md =~ s/([\n\r])\=\=([^\=][^\n\r]*)/$1<h2>$2<\/h2>/g;
 	$md =~ s/([\n\r])\=\=\=([^\=][^\n\r]*)/$1<h3>$2<\/h3>/g;
+	$md =~ s/([\n\r])\#\#([^\#][^\n\r]*)/$1<h2>$2<\/h2>/g;
+	$md =~ s/([\n\r])\#\#\#([^\#][^\n\r]*)/$1<h3>$2<\/h3>/g;
 
 	# Add paragraph splits
 	$md =~ s/\n\n/<\/p>\n\n<p>/g;
