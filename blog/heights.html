@@ -3,15 +3,21 @@
 <head>
 	<title>A ride along the coast</title>
 	<link rel="StyleSheet" title="RTWbike" href="../css/style.css" type="text/css" />
-	<link rel="stylesheet" href="../css/stuquery.barchart.css">
 	<script type="text/javascript" src="../js/stuquery.js"></script>
 	<link rel="shortcut icon" href="../icon.png"/>
 	<script type="text/javascript" src="../js/stuquery.barchart.js"></script>
 	<script type="text/javascript" src="../js/heights.js"></script>
 	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.strudel.org.uk/blog/RTWbike/rss.xml" />
+	<link rel="stylesheet" href="../css/stuquery.barchart.css">
+<script>
+var data = <!--#include virtual="heights.json" -->
+</script>
 <style>
-#barchart { height: 400px; width: 100%; }
+#barchart { height: 275px; width: 100%; }
+#barchart .bar { background-color: #3455bb; }
 </style>
+
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
 	<meta name="author" content="Stuart Lowe" />
 	<meta name="description" content="Around the world on a bicycle - following in the tyre tracks of Thomas Stevens" />
@@ -42,6 +48,8 @@
 		<div class="content">
 						
 			<div class="entry">
+
+				<p>Altitude gain in metres per day.</p>
 
 <div id="barchart"></div>
 <!--				<p>When I finally reached the Atlantic Highway the view managed to change my mood. This was the view from the tourist brochures. I had the blue skies too. I'd been planning to go to Bud but decided to camp here. I found my own little hill between the road and the ocean where the grass was already flattened from a previous occupant. It was idyllic aside from being buzzed by a couple of drone planes (hopefully they didn't catch me having a wee). There weren't even any midges or flies to ruin the moment. I had dinner of pasta then ate an entire Rullekake with a cup of tea. I watched the sun set. That was the first I've properly seen since the start of my trip. Perfect.</p>
