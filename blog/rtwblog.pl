@@ -60,9 +60,11 @@ $totald = 0;
 $from = "San Francisco";
 $metric = 0;
 $punctures = 0;
+$ferries = 0;
 $maxbin = 0;
 $distsincepunc = 0;
 %distances;
+$elevation = 0;
 
 for($i = 0; $i < @files; $i++){
 	$file = $files[$i];
@@ -77,8 +79,11 @@ for($i = 0; $i < @files; $i++){
 	$distance = "";
 	$route = "";
 	$punc = 0;
+	$ferr = 0;
+	$el = 0;
 	$puncture = "";
-	($title,$date,$post,$dist,$route,$punc) = processPost($dir.$file);
+	($title,$date,$post,$dist,$route,$punc,$img,$ferr,$el) = processPost($dir.$file);
+	if(!$img){ $img = "https://strudel.org.uk/RTWbike/blog/card.jpg"; }
 	$d = getDate(getJulianFromISO($date),"%D %d%e %M %Y (%t %Z)");
 	$month = getDate(getJulianFromISO($date),"%B %Y");
 	$mapid = getDate(getJulianFromISO($date),"%Y-%m-%d");
@@ -94,6 +99,16 @@ for($i = 0; $i < @files; $i++){
 	$punctures += $punc;
 	if($punctures > 0){
 		$puncture = "<p>Punctures since $from: <strong>$punctures</strong></p>";
+	}
+	$ferries += $ferr;
+	if($ferries > 0){
+		$ferry = "<p>Ferries since $from: <strong>$ferries</strong></p>";
+	}
+	$elevation += $el;
+	$elevations = "";
+	if($el > 0){
+		$elevations = "<p>Elevation gain today: <strong>$el m</strong></p>";
+		$elevations .= "<p>Total elevation gain since $from: <strong>$elevation m</strong></p>";
 	}
 
 	$html = "";
@@ -125,6 +140,8 @@ for($i = 0; $i < @files; $i++){
 		$str =~ s/\%AUTHOR\%/$author/g;
 		$str =~ s/\%DISTANCE\%/$distance/g;
 		$str =~ s/\%PUNCTURES\%/$puncture/g;
+		$str =~ s/\%FERRIES\%/$ferry/g;
+		$str =~ s/\%ELEVATION\%/$elevations/g;
 		$str =~ s/\%POSTDATE\%/<time pubdate=\"$date\" datetime=\"$date\">$d<\/time>/g;
 		$str =~ s/\%ENTRY\%/$post/g;
 		if($route){
@@ -135,6 +152,10 @@ for($i = 0; $i < @files; $i++){
 		$str =~ s/\%[^\%\n]+\%//g;
 		$content .= $indent.$str;
 	}
+	$extract = $post;
+	$extract =~ s/[\n\r]/ /g;
+	$extract =~ s/<[^\>]*>//g;
+	$extract =~ s/^([^\.]{1,140}\.?).*$/$1.../g;
 	$idx = "";
 	foreach $line (@template_entry){
 		$str = $line;
@@ -157,6 +178,9 @@ for($i = 0; $i < @files; $i++){
 		$str =~ s/\%ABOUT\%/$about/g;
 		$str =~ s/\%CLASS\%/$class/g;
 		$str =~ s/\%CONTENT\%/$content/g;
+		$str =~ s/\%EXTRACT\%/$extract/g;
+		$str =~ s/\%URL\%/https:\/\/strudel.org.uk\/RTWbike\/blog\/$htmls[$i]/g;
+		$str =~ s/\%IMG\%/$img/g;
 		
 		$html .= $str;
 	}
@@ -289,7 +313,7 @@ sub effectiveURL {
 }
 
 sub processPost {
-	local($inbody,$i,$file,@lines,$line,$title,$date,$post,$distance,$dist,$route,$punc);
+	local($inbody,$i,$file,@lines,$line,$title,$date,$post,$distance,$dist,$route,$punc,$ferry,$elevation,$el);
 	local $file = $_[0];
 
 	open(FILE,$file);
@@ -300,6 +324,8 @@ sub processPost {
 	$distance = "";
 	$inbody = 0;
 	$punc = 0;
+	$ferry = 0;
+	$elevation = 0;
 	for($i = 0; $i < @lines ; $i++){
 
 		$lines[$i] =~ s/[\n\r]//g;
@@ -312,10 +338,14 @@ sub processPost {
 		if($lines[$i] =~ /^Distance\:\t(.*)$/){ $distance = $1; }
 		if($lines[$i] =~ /^Route\:\t(.*)$/){ $route = $1; }
 		if($lines[$i] =~ /^Punctures\:\t(.*)$/){ $punc = $1; }
+		if($lines[$i] =~ /^Ferries\:\t(.*)$/){ $ferry = $1; }
+		if($lines[$i] =~ /^Elevation\:\t(.*)$/){ $elevation = $1; }
 		if($lines[$i] =~ /^Reset:\t(.*)$/){
 			$from = $1;
 			$distsincepunc = 0;
 			$punctures = 0;
+			$ferries = 0;
+			$elevation = 0;
 #			$distances = {};
 			$totald = 0;
 #			$maxbin = 0;
@@ -330,8 +360,15 @@ sub processPost {
 		$dist = $1;
 #		$distance = "<p class=\"entry_footer\">Distance cycled today: $1 km (".sprintf("%.1f",$1/1.60965)." miles)</p>";
 	}
+	if($elevation =~ /^([0-9\.]*) m/){
+		$el = $1;
+	}
 	$post = Markdown2HTML($post);
-	return ($title,$date,$post,$dist,$route,$punc);
+	$img = "";
+	if($post =~ /<img src="([^\"]*)"/){
+		#$img = $1;
+	}
+	return ($title,$date,$post,$dist,$route,$punc,$img,$ferry,$el);
 }
 
 # Input distance in km
@@ -395,7 +432,8 @@ sub Markdown2HTML {
 	$md =~ s/\!\[panorama]\(https:\/\/www.flickr.com([^\s]+) \"([^\"]*)\"\)/<figure class=\"full\"><iframe src="https:\/\/www.flickr.com$1\/player\/" height="500" width="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen><\/iframe><figcaption>$2<\/figcaption><\/figure>/g;
 	$md =~ s/\!\[panorama]\((https:\/\/farm[0-9]*.staticflickr.com\/[0-9]+\/)([^\_]+)([^\s]+) \"([^\"]*)\"\)/<figure class=\"full\"><a href=\"$flickr$2\"><img src=\"$1$2$3\" alt=\"panorama\" title=\"$4\" \/><\/a><figcaption>$4<\/figcaption><\/figure>/g;
 	# Deal with panorami that aren't flickr links
-	$md =~ s/\!\[panorama]\((https:\/\/[^\s]+) \"([^\"]*)\"\)/<figure class=\"full\"><a href=\"$1\"><img src=\"$1\" alt=\"panorama\" title=\"$2\" \/><\/a><figcaption>$2<\/figcaption><\/figure>/g;
+	$md =~ s/\!\[panorama]\((https?:\/\/[^\s]+) \"([^\"]*)\"\)/<figure class=\"full\"><a href=\"$1\"><img src=\"$1\" alt=\"panorama\" title=\"$2\" \/><\/a><figcaption>$2<\/figcaption><\/figure>/g;
+	$md =~ s/\!\[youtube]\(https:\/\/[^\s]+\/([^\/]+) \"([^\"]*)\"\)/<iframe id="player" type="text\/html" width="640" height="390" src="http:\/\/www.youtube.com\/embed\/$1" frameborder="0"><\/iframe>/g;
 	$md =~ s/\!\[[^\]]*]\((https:\/\/farm[0-9]*.staticflickr.com\/[0-9]+\/)([^\_]+)([^\s]+) \"([^\"]*)\"\)/<figure class=\"landscape\"><a href=\"$flickr$2\"><img src=\"$1$2$3\" alt=\"photo\" title=\"$4\" \/><\/a><figcaption>$4<\/figcaption><\/figure>/g;
 
 	# Make images
@@ -403,6 +441,11 @@ sub Markdown2HTML {
 
 	# Make links
 	$md =~ s/\[([^\]]*)\]\(([^\)]*)\)/<a href="$2">$1<\/a>/g;
+
+	# Make lists
+	$md =~ s/([\n\r]|<p>)\* ([^\n\r]*)/$1<li>$2<\/li>/g;
+	$md =~ s/(<p>)(<li>)/<ul>\n$2/g;
+	$md =~ s/(<\/p>)(<\/li>)/$2\n<\/ul>/g;
 
 	$md =~ s/^[\n\r]//g;
 	$md =~ s/[\n\r]$//g;
